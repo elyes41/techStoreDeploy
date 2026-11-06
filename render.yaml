@@ -6,9 +6,12 @@ services:
     runtime: docker
     plan: free
     region: frankfurt            # le plus proche de la Tunisie ; non modifiable ensuite
-    rootDir: backend             # seuls les changements dans backend/ redéploient
+    # Chemins depuis la racine du dépôt (pas de rootDir : avec rootDir, Render ajoute le dossier une 2e fois)
     dockerfilePath: ./backend/Dockerfile
     dockerContext: ./backend
+    buildFilter:                 # ne redéploie que si le backend change
+      paths:
+        - backend/**
     healthCheckPath: /q/health/ready
     autoDeploy: true
     envVars:

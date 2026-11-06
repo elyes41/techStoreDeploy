@@ -1,0 +1,9 @@
+[
+  { "$match": { "status": { "$ne": "CANCELLED" }, "createdAt": { "$gte": { "@param": "since" } } } },
+  { "$group": {
+      "_id": { "$dateToString": { "format": "%Y-%m-%d", "date": "$createdAt", "timezone": { "@param": "timezone" } } },
+      "orders": { "$sum": 1 },
+      "revenue": { "$sum": "$amounts.total" }
+  } },
+  { "$sort": { "_id": 1 } }
+]

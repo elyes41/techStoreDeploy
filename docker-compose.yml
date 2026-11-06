@@ -1,0 +1,54 @@
+services:
+  mongo:
+    image: mongo:8.0
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: techstore
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD:-techstore}
+    volumes:
+      - mongodata:/data/db
+    ports:
+      - "127.0.0.1:27017:27017"   # accessible seulement depuis la machine (Compass, mongosh)
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    depends_on:
+      mongo:
+        condition: service_healthy
+    environment:
+      MONGODB_URI: mongodb://techstore:${MONGO_PASSWORD:-techstore}@mongo:27017/?authSource=admin
+      MONGODB_DATABASE: techstore
+      DEMO_DATA: ${DEMO_DATA:-true}
+      ADMIN_EMAIL: ${ADMIN_EMAIL:-admin@techstore.tn}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-ChangeMoi123!}
+      UPLOAD_DIR: /data/uploads
+      WHATSAPP_NUMBER: ${WHATSAPP_NUMBER:-}
+      PUBLIC_URL: ${PUBLIC_URL:-http://localhost}
+      MAIL_FROM: ${MAIL_FROM:-TechStore <no-reply@techstore.tn>}
+      SMTP_HOST: ${SMTP_HOST:-localhost}
+      SMTP_PORT: ${SMTP_PORT:-587}
+      SMTP_USER: ${SMTP_USER:-}
+      SMTP_PASSWORD: ${SMTP_PASSWORD:-}
+      SMTP_SSL: ${SMTP_SSL:-false}
+    volumes:
+      - uploads:/data/uploads
+    ports:
+      - "8080:8080"
+
+  frontend:
+    build: ./frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "80:80"
+
+volumes:
+  mongodata:
+  uploads:

@@ -1,0 +1,5 @@
+[
+  { "$match": { "productId": { "@param": "productId" }, "viewedAt": { "$gt": { "@param": "since" } } } },
+  { "$group": { "_id": "$visitorId" } },
+  { "$count": "visitors" }
+]

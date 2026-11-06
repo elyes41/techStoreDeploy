@@ -1,0 +1,20 @@
+[
+  { "$match": {
+      "_id": { "$nin": { "@param": "excludeIds" } },
+      "active": true,
+      "stock": { "$gt": 0 },
+      "$or": [
+        { "category._id": { "$in": { "@param": "seedCategoryIds" } } },
+        { "brand": { "$in": { "@param": "seedBrands" } } }
+      ]
+  } },
+  { "$addFields": { "_score": { "$add": [
+      { "$multiply": [3, { "$size": { "$filter": { "input": { "@param": "seedCategoryIds" }, "cond": { "$eq": ["$$this", "$category._id"] } } } }] },
+      { "$multiply": [2, { "$size": { "$filter": { "input": { "@param": "seedBrands" }, "cond": { "$eq": ["$$this", "$brand"] } } } }] },
+      { "$size": { "$filter": { "input": { "@param": "seedPriceBands" },
+          "cond": { "$and": [ { "$gte": ["$price", "$$this.min"] }, { "$lte": ["$price", "$$this.max"] } ] } } } }
+  ] } } },
+  { "$sort": { "_score": -1, "soldCount": -1, "_id": 1 } },
+  { "$limit": { "@param": "limit" } },
+  { "$unset": "_score" }
+]

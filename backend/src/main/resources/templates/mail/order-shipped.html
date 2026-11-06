@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Votre commande {m.reference} est en route</title>
+</head>
+<body style="margin:0;padding:0;background:#f6f7f9;font-family:Arial,Helvetica,sans-serif;color:#0f172a;">
+<span style="display:none;max-height:0;overflow:hidden;">Votre colis a été remis au livreur{#if m.carrier} ({m.carrier}){/if}. Livraison prévue : {m.deliveryWindow}.</span>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f6f7f9;padding:24px 12px;">
+  <tr><td align="center">
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;background:#ffffff;border-radius:14px;overflow:hidden;">
+
+      <tr><td style="background:#0f172a;padding:20px 28px;">
+        <a href="{m.shopUrl}" style="color:#ffffff;text-decoration:none;font-size:24px;font-weight:bold;">Tech<span style="color:#60a5fa;">Store</span></a>
+      </td></tr>
+
+      <tr><td style="padding:32px 28px 8px;">
+        <p style="margin:0 0 8px;font-size:14px;color:#15803d;font-weight:bold;">&#10003; Commande expédiée</p>
+        <h1 style="margin:0 0 12px;font-size:26px;line-height:1.25;">Bonne nouvelle {m.customerName}, votre colis est en route&nbsp;!</h1>
+        <p style="margin:0;font-size:16px;line-height:1.6;color:#334155;">
+          Votre commande <strong>{m.reference}</strong> vient d'être remise au livreur.
+          Livraison prévue : <strong>{m.deliveryWindow}</strong>.
+        </p>
+      </td></tr>
+
+      {#if m.carrier || m.trackingNumber}
+      <tr><td style="padding:20px 28px 0;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#eff6ff;border-radius:12px;">
+          <tr><td style="padding:18px 20px;font-size:15px;line-height:1.7;">
+            {#if m.carrier}<div><span style="color:#475569;">Transporteur :</span> <strong>{m.carrier}</strong></div>{/if}
+            {#if m.trackingNumber}<div><span style="color:#475569;">N° de suivi :</span> <strong style="font-family:monospace;font-size:16px;">{m.trackingNumber}</strong></div>{/if}
+            {#if m.trackingUrl}
+            <div style="padding-top:14px;">
+              <a href="{m.trackingUrl}" style="display:inline-block;background:#1d4ed8;color:#ffffff;text-decoration:none;font-weight:bold;padding:12px 22px;border-radius:10px;">Suivre mon colis</a>
+            </div>
+            {/if}
+          </td></tr>
+        </table>
+      </td></tr>
+      {/if}
+
+      <tr><td style="padding:28px 28px 0;">
+        <h2 style="margin:0 0 12px;font-size:18px;">Contenu du colis</h2>
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:15px;">
+          {#for line in m.items}
+          <tr>
+            <td style="padding:10px 0;border-bottom:1px solid #e2e8f0;">{line.quantity} &times; {line.name}</td>
+            <td align="right" style="padding:10px 0;border-bottom:1px solid #e2e8f0;white-space:nowrap;">{line.total}</td>
+          </tr>
+          {/for}
+          <tr>
+            <td style="padding:12px 0;font-weight:bold;">Total</td>
+            <td align="right" style="padding:12px 0;font-weight:bold;font-size:17px;white-space:nowrap;">{m.total}</td>
+          </tr>
+        </table>
+        <p style="margin:8px 0 0;font-size:14px;color:#334155;">{m.paymentInfo}</p>
+      </td></tr>
+
+      <tr><td style="padding:24px 28px 0;">
+        <h2 style="margin:0 0 8px;font-size:18px;">Adresse de livraison</h2>
+        <p style="margin:0;font-size:15px;line-height:1.6;color:#334155;">{m.address}</p>
+        <p style="margin:8px 0 0;font-size:14px;color:#475569;">Le livreur vous appellera avant de passer. Gardez votre téléphone à portée de main.</p>
+      </td></tr>
+
+      <tr><td style="padding:28px 28px 32px;">
+        <a href="{m.orderUrl}" style="display:inline-block;border:1px solid #cbd5e1;color:#0f172a;text-decoration:none;font-weight:bold;padding:12px 22px;border-radius:10px;">Voir ma commande</a>
+      </td></tr>
+
+      <tr><td style="background:#f8fafc;padding:18px 28px;font-size:12px;line-height:1.6;color:#475569;">
+        Vous recevez cet e-mail car vous avez passé commande sur <a href="{m.shopUrl}" style="color:#1d4ed8;">{m.shopName}</a>.<br>
+        Une question ? Répondez simplement à ce message ou contactez-nous au [Téléphone].
+      </td></tr>
+
+    </table>
+  </td></tr>
+</table>
+</body>
+</html>

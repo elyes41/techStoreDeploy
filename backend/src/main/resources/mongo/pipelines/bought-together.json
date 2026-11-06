@@ -1,0 +1,9 @@
+[
+  { "$match": { "status": { "$ne": "CANCELLED" }, "items.productId": { "@param": "productId" } } },
+  { "$unwind": "$items" },
+  { "$match": { "items.productId": { "$nin": [ { "@param": "productId" }, null ] } } },
+  { "$group": { "_id": "$items.productId", "orders": { "$addToSet": "$_id" } } },
+  { "$project": { "count": { "$size": "$orders" } } },
+  { "$sort": { "count": -1, "_id": 1 } },
+  { "$limit": { "@param": "limit" } }
+]

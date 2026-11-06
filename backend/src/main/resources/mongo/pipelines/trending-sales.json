@@ -1,0 +1,6 @@
+[
+  { "$match": { "status": { "$ne": "CANCELLED" }, "createdAt": { "$gte": { "@param": "since" } } } },
+  { "$unwind": "$items" },
+  { "$match": { "items.productId": { "$ne": null } } },
+  { "$group": { "_id": "$items.productId", "quantity": { "$sum": "$items.quantity" } } }
+]

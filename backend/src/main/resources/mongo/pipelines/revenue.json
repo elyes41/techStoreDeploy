@@ -1,0 +1,4 @@
+[
+  { "$match": { "status": { "$ne": "CANCELLED" }, "createdAt": { "$gte": { "@param": "since" } } } },
+  { "$group": { "_id": null, "revenue": { "$sum": "$amounts.total" }, "orders": { "$sum": 1 } } }
+]

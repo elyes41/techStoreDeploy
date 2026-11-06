@@ -1,0 +1,162 @@
+[
+ {
+  "_id": {
+   "$oid": "3a39c5902b63a516ebf92404"
+  },
+  "name": "Petit électroménager cuisine",
+  "slug": "petit-electromenager-cuisine",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "80d4c0ebd1c568cbcde172ed"
+  },
+  "name": "Soin & beauté",
+  "slug": "soin-beaute",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "c57d80da4f575f92c8a57d9e"
+  },
+  "name": "Puériculture",
+  "slug": "puericulture",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "04869e739e4a287c76e79d34"
+  },
+  "name": "Soin du linge",
+  "slug": "soin-du-linge",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "282555bb29bdf68528e51f3c"
+  },
+  "name": "Aspiration & nettoyage",
+  "slug": "aspiration-nettoyage",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "f864328fbd6ada49a7981fea"
+  },
+  "name": "Outillage & bricolage",
+  "slug": "outillage-bricolage",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "2aafac778d8b5bf6c80ca954"
+  },
+  "name": "Jardin",
+  "slug": "jardin",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "dfb2e5a34bc1bc8b5cf4d035"
+  },
+  "name": "Ustensiles de cuisine",
+  "slug": "ustensiles-de-cuisine",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "69c03d7d06d8d260ec372aab"
+  },
+  "name": "Climatisation & chauffage",
+  "slug": "climatisation-chauffage",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "a126f0aacab8aa15f337d6eb"
+  },
+  "name": "Animaux",
+  "slug": "animaux",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "dcf14b5a5c5b06594a3bbd3b"
+  },
+  "name": "Maison",
+  "slug": "maison",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "d6d367373711eed89897423b"
+  },
+  "name": "Gros électroménager",
+  "slug": "gros-electromenager",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "4caa641ff6d120ae01ac3263"
+  },
+  "name": "Mobilité électrique",
+  "slug": "mobilite-electrique",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "09ab122ecd597adda68a14a0"
+  },
+  "name": "TV",
+  "slug": "tv",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "2c5e484e87a42100e0d9340c"
+  },
+  "name": "Énergie & recharge",
+  "slug": "energie-recharge",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "dcfdef11078eb462601cd0fa"
+  },
+  "name": "Fitness & sport",
+  "slug": "fitness-sport",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ }
+]

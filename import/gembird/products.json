@@ -1,0 +1,5102 @@
+[
+ {
+  "_id": {
+   "$oid": "757692477f3d558c479dbb4b"
+  },
+  "name": "Adaptateur port HDMI vers VGA",
+  "slug": "adaptateur-port-hdmi-vers-vga-ab-hdmi-vga-001",
+  "sku": "AB-HDMI-VGA-001",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "28.441"
+  },
+  "oldPrice": null,
+  "stock": 50,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/2acbb0d3-aef1-5138-ab69-1b4a204a1613.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "AB-HDMI-VGA-001"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309099721"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "a1404bed093083c2e3c8e0e8"
+  },
+  "name": "Adaptateur multiport USB-C 15 en 1, gris",
+  "slug": "adaptateur-multiport-usb-c-15-en-1-gris-a-cf-combo15-01",
+  "sku": "A-CF-COMBO15-01",
+  "brand": "Gembird",
+  "description": "Hub USB (2 ports USB 2.0 + 3 ports USB 3.0), USB-C, 2 x HDMI, DisplayPort, PD, lecteur de cartes, LAN Gigabit, audio 3,5 mm",
+  "price": {
+   "$numberDecimal": "386.631"
+  },
+  "oldPrice": null,
+  "stock": 2,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/e70b295f-48c8-52b4-a937-57dc786bc3ed.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-CF-COMBO15-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309135900"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "8d77138ddb8406007ce1d32d"
+  },
+  "name": "Adaptateur réseau, USB-C Gigabit, noir",
+  "slug": "adaptateur-reseau-usb-c-gigabit-noir-a-cm-combo3-02",
+  "sku": "A-CM-COMBO3-02",
+  "brand": "Gembird",
+  "description": "3 en 1 : port USB unique, HDMI 4K et USB Type-C PD",
+  "price": {
+   "$numberDecimal": "41.531"
+  },
+  "oldPrice": null,
+  "stock": 2,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/598b8064-5a20-5550-85ad-1012340cfacd.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-CM-COMBO3-02"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309124188"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "41df99bea333f55bd70d33a5"
+  },
+  "name": "Adaptateur réseau USB-C Gigabit, noir",
+  "slug": "adaptateur-reseau-usb-c-gigabit-noir-a-cm-combo6-01",
+  "sku": "A-CM-COMBO6-01",
+  "brand": "Gembird",
+  "description": "6 en 1 : port USB 3, vidéo HDMI 4K et VGA Full HD, audio stéréo, lecteur de cartes, charge USB-C PD",
+  "price": {
+   "$numberDecimal": "95.081"
+  },
+  "oldPrice": null,
+  "stock": 6,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/d976c12c-1184-512a-a6ef-fd930f44391c.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-CM-COMBO6-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309121453"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "ec18efdbb99c7caa2abec57c"
+  },
+  "name": "Adaptateur réseau, USB-C Gigabit, noir",
+  "slug": "adaptateur-reseau-usb-c-gigabit-noir-a-cm-combo9-01",
+  "sku": "A-CM-COMBO9-01",
+  "brand": "Gembird",
+  "description": "9 fonctions en 1 : hub USB, vidéo HDMI 4K et VGA Full HD, audio stéréo, port LAN Gigabit",
+  "price": {
+   "$numberDecimal": "273.581"
+  },
+  "oldPrice": null,
+  "stock": 5,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/dbcbb25a-11c1-5383-9dab-22d8bd6fb03a.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-CM-COMBO9-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309121439"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "a9ffcdec5c6204d1e4b64336"
+  },
+  "name": "Adaptateur multiport USB Type-C 9 en 1",
+  "slug": "adaptateur-multiport-usb-type-c-9-en-1-a-cm-combo9-02",
+  "sku": "A-CM-COMBO9-02",
+  "brand": "Gembird",
+  "description": "Hub 3.2 + HDMI + DisplayPort + VGA + PD + LAN + audio stéréo",
+  "price": {
+   "$numberDecimal": "224.791"
+  },
+  "oldPrice": null,
+  "stock": 3,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/51d99607-f84e-56c3-9b53-016c8d35389c.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-CM-COMBO9-02"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309124331"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "02d5928e43d004ce293926dd"
+  },
+  "name": "Adaptateur USB-C > DisplayPort, noir",
+  "slug": "adaptateur-usb-c-displayport-noir-a-cm-dpf-01",
+  "sku": "A-CM-DPF-01",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "46.291"
+  },
+  "oldPrice": null,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/abab078c-3b36-5ab8-a976-92dea02f515b.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-CM-DPF-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309097611"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "ac38724d82a82f9a4431a143"
+  },
+  "name": "Adaptateur USB-C > DisplayPort, noir",
+  "slug": "adaptateur-usb-c-displayport-noir-a-cm-dpm-01",
+  "sku": "A-CM-DPM-01",
+  "brand": "Gembird",
+  "description": "Entrée : USB 3.1 Type-C mâle • Sortie : DisplayPort mâle",
+  "price": {
+   "$numberDecimal": "29.631"
+  },
+  "oldPrice": null,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/202d6848-6e75-5b9d-9161-482fb526fd9f.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-CM-DPM-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309124157"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "672ed0f1e32f48ae72f71aa4"
+  },
+  "name": "Adaptateur USB-C > HDMI, noir",
+  "slug": "adaptateur-usb-c-hdmi-noir-a-cm-hdmif-01",
+  "sku": "A-CM-HDMIF-01",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "23.681"
+  },
+  "oldPrice": null,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/d63335ad-5627-58b1-b392-7dbc13cc2e28.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-CM-HDMIF-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309097642"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "abf0242e365fd436f7c60c3f"
+  },
+  "name": "Adaptateur USB-C > HDMI + DisplayPort, noir",
+  "slug": "adaptateur-usb-c-hdmi-displayport-noir-a-cm-hdmifdpf-01",
+  "sku": "A-CM-HDMIFDPF-01",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "83.181"
+  },
+  "oldPrice": null,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/6d238532-7ec2-5cde-8416-1b46826c13ca.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-CM-HDMIFDPF-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309137249"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "9d618c628e0047ce1660386a"
+  },
+  "name": "Adaptateur USB-C > HDMI, noir",
+  "slug": "adaptateur-usb-c-hdmi-noir-a-cm-hdmim-01",
+  "sku": "A-CM-HDMIM-01",
+  "brand": "Gembird",
+  "description": "Entrée : USB 3.x Type-C mâle • Sortie : HDMI mâle",
+  "price": {
+   "$numberDecimal": "24.871"
+  },
+  "oldPrice": null,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/8055fc57-fe4e-5684-9c37-cd5d61ec2cd2.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-CM-HDMIM-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309124126"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "0c0f13fccc7e04f38b84eecc"
+  },
+  "name": "Adaptateur USB-C > HDMI, noir",
+  "slug": "adaptateur-usb-c-hdmi-noir-a-cm-hdmim-02",
+  "sku": "A-CM-HDMIM-02",
+  "brand": "Gembird",
+  "description": "Entrée : USB 3.1 Type-C mâle • Sortie : HDMI mâle",
+  "price": {
+   "$numberDecimal": "41.531"
+  },
+  "oldPrice": null,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/42bea823-d876-5648-81bd-e6ffcadce2dd.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-CM-HDMIM-02"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309124133"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "735da754b241bb06fda0a3c3"
+  },
+  "name": "Adaptateur réseau USB-C Gigabit, noir",
+  "slug": "adaptateur-reseau-usb-c-gigabit-noir-a-cmu3-lan-01",
+  "sku": "A-CMU3-LAN-01",
+  "brand": "Gembird",
+  "description": "Entrée : USB Type-C mâle • LAN : RJ-45 Gigabit (IEEE 802.3x, 802.1p, 802.1q, 802.3az) • 3 ports USB-A 3.1 Gen 1 (5 Gbit/s)",
+  "price": {
+   "$numberDecimal": "53.431"
+  },
+  "oldPrice": null,
+  "stock": 30,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/ed3cd941-d695-5c93-920d-e98493e5bdaa.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-CMU3-LAN-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309120494"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "2d523483cfba07778dc6d0f0"
+  },
+  "name": "Adaptateur HDMI vers mini-HDMI",
+  "slug": "adaptateur-hdmi-vers-mini-hdmi-a-hdmi-fc",
+  "sku": "A-HDMI-FC",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "8.211"
+  },
+  "oldPrice": null,
+  "stock": 317,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/b0f07cb8-0663-581c-8f4a-6885f2085c54.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-HDMI-FC"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309058476"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "cbbfa2fa0d4919038989b3c6"
+  },
+  "name": "Adaptateur actif HDMI 4K mâle vers DisplayPort femelle, noir",
+  "slug": "adaptateur-actif-hdmi-4k-male-vers-displayport-femelle-noir-a-hdmim-dpf-02",
+  "sku": "A-HDMIM-DPF-02",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "85.561"
+  },
+  "oldPrice": null,
+  "stock": 30,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/d3059b7d-b7b1-561c-b3ad-96b363792071.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-HDMIM-DPF-02"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309124546"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "0a180a8c4b37c928abe67696"
+  },
+  "name": "Câble adaptateur HDMI vers VGA et audio, port unique, noir",
+  "slug": "cable-adaptateur-hdmi-vers-vga-et-audio-port-unique-noir-a-hdmi-vga-03",
+  "sku": "A-HDMI-VGA-03",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "14.875"
+  },
+  "oldPrice": null,
+  "stock": 30,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/2e93f4ca-2dcf-58f8-95ab-566b95077598.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-HDMI-VGA-03"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309089784"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "b1482903987e69eecbb34d79"
+  },
+  "name": "Adaptateur port HDMI vers VGA",
+  "slug": "adaptateur-port-hdmi-vers-vga-a-hdmi-vga-03-6",
+  "sku": "A-HDMI-VGA-03-6",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "27.251"
+  },
+  "oldPrice": null,
+  "stock": 30,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/5aa5bb7d-5239-5c8d-b073-571ae4df9e9f.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-HDMI-VGA-03-6"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309098021"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "ad5fb5ea2964dc24b8e0ffd9"
+  },
+  "name": "Câble adaptateur micro-USB vers HDMI (MHL)",
+  "slug": "cable-adaptateur-micro-usb-vers-hdmi-mhl-a-mhl-002",
+  "sku": "A-MHL-002",
+  "brand": "Gembird",
+  "description": "Adaptateur HDTV, 5 broches",
+  "price": {
+   "$numberDecimal": "20.111"
+  },
+  "oldPrice": null,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/ce219241-bc97-53c8-bee7-c46a204d7e6e.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-MHL-002"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309078719"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "02174a62f7f6e0f7d7f8f3fa"
+  },
+  "name": "Câble adaptateur micro-USB vers HDMI (MHL) 11 broches",
+  "slug": "cable-adaptateur-micro-usb-vers-hdmi-mhl-11-broches-a-mhl-003",
+  "sku": "A-MHL-003",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "22.491"
+  },
+  "oldPrice": null,
+  "stock": 30,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/262257fb-bba5-5ec0-96e3-4c30170294f0.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-MHL-003"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309078726"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "fe98f4f3c823f6cee2e36dbf"
+  },
+  "name": "Adaptateur USB AM > Type-C, noir",
+  "slug": "adaptateur-usb-am-type-c-noir-a-usb2-amcf-02",
+  "sku": "A-USB2-AMCF-02",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "4.165"
+  },
+  "oldPrice": null,
+  "stock": 30,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/d81e3d78-1922-5847-9641-4916ebe99d77.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-USB2-AMCF-02"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309121088"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "a83635bbcb19f008482e6701"
+  },
+  "name": "Adaptateur type-C USB 2.0",
+  "slug": "adaptateur-type-c-usb-2-0-a-usb2-cmaf-01",
+  "sku": "A-USB2-CMAF-01",
+  "brand": "Gembird",
+  "description": "CM/AF",
+  "price": {
+   "$numberDecimal": "5.355"
+  },
+  "oldPrice": null,
+  "stock": 30,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/d8199df4-eefa-5d3b-a1f6-39964ac35fff.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-USB2-CMAF-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309093460"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "34bd9891bbd87bd0810c2350"
+  },
+  "name": "Adaptateur réseau Gigabit USB 3.2",
+  "slug": "adaptateur-reseau-gigabit-usb-3-2-a-usb3ac-lan-01",
+  "sku": "A-USB3AC-LAN-01",
+  "brand": "Gembird",
+  "description": "Connecteur combiné USB Type-A + Type-C • Compatible réseaux 10/100/1000 Mbit/s",
+  "price": {
+   "$numberDecimal": "39.151"
+  },
+  "oldPrice": null,
+  "stock": 20,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/66e2ad55-437c-58f3-9058-705e6917daeb.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-USB3AC-LAN-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309128186"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "36f1cafa83ed8cbd99c777de"
+  },
+  "name": "Adaptateur réseau Gigabit USB 3.2",
+  "slug": "adaptateur-reseau-gigabit-usb-3-2-a-usb3ac-lan2g-01",
+  "sku": "A-USB3AC-LAN2G-01",
+  "brand": "Gembird",
+  "description": "Connecteur combiné USB Type-A + Type-C • Compatible réseaux 10/100/1000 Mbit/s",
+  "price": {
+   "$numberDecimal": "65.331"
+  },
+  "oldPrice": null,
+  "stock": 20,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/9f6f8b4f-a048-5cb8-a7c7-e1337fad1c5c.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-USB3AC-LAN2G-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309130424"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "71cc33f794c89583e7284d7d"
+  },
+  "name": "Adaptateur USB-C > HDMI, noir",
+  "slug": "adaptateur-usb-c-hdmi-noir-a-usb3c-hdmi-01",
+  "sku": "A-USB3C-HDMI-01",
+  "brand": "Gembird",
+  "description": "USB 3.x Type-C mâle • HDMI-A 19 broches femelle",
+  "price": {
+   "$numberDecimal": "23.681"
+  },
+  "oldPrice": null,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/817b1495-e2e5-5922-a5d1-ad53be2e402a.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-USB3C-HDMI-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309121354"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "236f21f0de60f36b30a3f75b"
+  },
+  "name": "Adaptateur USB-C > HDMI + VGA, noir",
+  "slug": "adaptateur-usb-c-hdmi-vga-noir-a-usb3c-hdmivga-01",
+  "sku": "A-USB3C-HDMIVGA-01",
+  "brand": "Gembird",
+  "description": "Interface : USB 3.0 Type-C mâle • HDMI-A 19 broches femelle",
+  "price": {
+   "$numberDecimal": "53.431"
+  },
+  "oldPrice": null,
+  "stock": 5,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/91ae65c6-0e1c-5331-b54a-0c6e9b5a34e5.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-USB3C-HDMIVGA-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309121347"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "9d06518cb25b1ce080e3be36"
+  },
+  "name": "Adaptateur réseau USB-C Gigabit",
+  "slug": "adaptateur-reseau-usb-c-gigabit-a-usb3c-lan-01",
+  "sku": "A-USB3C-LAN-01",
+  "brand": "Gembird",
+  "description": "USB Type-C mâle • LAN : RJ-45 femelle Gigabit (IEEE 802.3x, 802.1p, 802.1q, 802.3az)",
+  "price": {
+   "$numberDecimal": "35.581"
+  },
+  "oldPrice": null,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/3ae4669a-13b5-53ec-9b38-45def60ad734.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-USB3C-LAN-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309121385"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "43778fba2399bc72d16d0e86"
+  },
+  "name": "Adaptateur Type-C USB 3.2 (CM/AF)",
+  "slug": "adaptateur-type-c-usb-3-2-cm-af-a-usb3-cmaf-01",
+  "sku": "A-USB3-CMAF-01",
+  "brand": "Gembird",
+  "description": "USB 3.2 Gen 1, rétrocompatible USB 3.x / 2.0",
+  "price": {
+   "$numberDecimal": "4.165"
+  },
+  "oldPrice": null,
+  "stock": 30,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/6656c50e-90ea-5a09-b20f-eaf9d427eba5.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-USB3-CMAF-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309095457"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "95f8fa5d1bc2485067556e06"
+  },
+  "name": "Adaptateur USB-C > VGA, noir",
+  "slug": "adaptateur-usb-c-vga-noir-a-usb3c-vga-01",
+  "sku": "A-USB3C-VGA-01",
+  "brand": "Gembird",
+  "description": "Interface : USB 3.0 Type-C mâle • VGA femelle",
+  "price": {
+   "$numberDecimal": "46.291"
+  },
+  "oldPrice": null,
+  "stock": 5,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/9fdbce91-7e98-5168-ac49-e3c981fc909e.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-USB3C-VGA-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309121378"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6f1be2149f8fd0f02ba770b7"
+  },
+  "name": "Adaptateur USB > HDMI, noir",
+  "slug": "adaptateur-usb-hdmi-noir-a-usb3-hdmi-02",
+  "sku": "A-USB3-HDMI-02",
+  "brand": "Gembird",
+  "description": "Interface : USB 3.2 Type-A mâle • HDMI-A 19 broches femelle",
+  "price": {
+   "$numberDecimal": "54.621"
+  },
+  "oldPrice": null,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/b6deef1b-bf6b-5481-80a9-84baf82262a3.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-USB3-HDMI-02"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309099141"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "722ac75ba1dff1cc485d6567"
+  },
+  "name": "Adaptateur USB > HDMI + VGA, noir",
+  "slug": "adaptateur-usb-hdmi-vga-noir-a-usb3-hdmivga-01",
+  "sku": "A-USB3-HDMIVGA-01",
+  "brand": "Gembird",
+  "description": "Interface : USB 3.0 Type-A mâle • HDMI-A 19 broches femelle",
+  "price": {
+   "$numberDecimal": "65.331"
+  },
+  "oldPrice": null,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/1d7cbc52-2f55-5964-8087-c8bd88b7ffbc.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "A-USB3-HDMIVGA-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309121330"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "a451114e9f506f048a12974b"
+  },
+  "name": "Convertisseur HDMI vers VGA",
+  "slug": "convertisseur-hdmi-vers-vga-dsc-hdmi-vga-001",
+  "sku": "DSC-HDMI-VGA-001",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "54.621"
+  },
+  "oldPrice": null,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07f90fb6e96836a8ecf5b436"
+   },
+   "name": "Adaptateurs & convertisseurs",
+   "slug": "adaptateurs-convertisseurs"
+  },
+  "images": [
+   "/uploads/78abb40b-3240-5306-a351-e7913c27f591.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "DSC-HDMI-VGA-001"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309077446"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "abaa618043f47d831fff6881"
+  },
+  "name": "Câble HDMI haute vitesse avec Ethernet, 5m « Select Plus Series »",
+  "slug": "cable-hdmi-haute-vitesse-avec-ethernet-5m-select-plus-series-ccb-hdmil-5m",
+  "sku": "CCB-HDMIL-5M",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "29.631"
+  },
+  "oldPrice": null,
+  "stock": 40,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "1866c09edec764e5ef8e406b"
+   },
+   "name": "Câbles vidéo",
+   "slug": "cables-video"
+  },
+  "images": [
+   "/uploads/8549e620-2753-5506-a9fa-b79d3e07adf8.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "CCB-HDMIL-5M"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309107655"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "689331abb1d6cc8b4adbb970"
+  },
+  "name": "Câble DisplayPort 4K, 10 m",
+  "slug": "cable-displayport-4k-10-m-cc-dp2-10m",
+  "sku": "CC-DP2-10M",
+  "brand": "Gembird",
+  "description": "DisplayPort 1.2 • 2 x DisplayPort mâle",
+  "price": {
+   "$numberDecimal": "55.811"
+  },
+  "oldPrice": null,
+  "stock": 30,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "1866c09edec764e5ef8e406b"
+   },
+   "name": "Câbles vidéo",
+   "slug": "cables-video"
+  },
+  "images": [
+   "/uploads/81c91e9d-6d41-5f75-a281-9e6a16dd92b7.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "CC-DP2-10M"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309120609"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "e732de65c40dba64b61d5fa9"
+  },
+  "name": "Câble DisplayPort 4K, 5 m",
+  "slug": "cable-displayport-4k-5-m-cc-dp2-5m",
+  "sku": "CC-DP2-5M",
+  "brand": "Gembird",
+  "description": "DisplayPort 1.2 • 2 x DisplayPort mâle",
+  "price": {
+   "$numberDecimal": "35.581"
+  },
+  "oldPrice": null,
+  "stock": 40,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "1866c09edec764e5ef8e406b"
+   },
+   "name": "Câbles vidéo",
+   "slug": "cables-video"
+  },
+  "images": [
+   "/uploads/bbcbfacd-f9ba-541a-a04f-48819de7f75b.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "CC-DP2-5M"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309120593"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "9334bf75e261539152428c59"
+  },
+  "name": "Câble DisplayPort 4K vers HDMI, 3 m",
+  "slug": "cable-displayport-4k-vers-hdmi-3-m-cc-dp-hdmi-3m",
+  "sku": "CC-DP-HDMI-3M",
+  "brand": "Gembird",
+  "description": "DP 1.2 • Entrée DisplayPort mâle / sortie HDMI Type-A mâle, connecteurs plaqués or",
+  "price": {
+   "$numberDecimal": "23.681"
+  },
+  "oldPrice": null,
+  "stock": 50,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "1866c09edec764e5ef8e406b"
+   },
+   "name": "Câbles vidéo",
+   "slug": "cables-video"
+  },
+  "images": [
+   "/uploads/98051912-447e-505b-ac4e-7312fd419c95.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "CC-DP-HDMI-3M"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309080002"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "ac6651a8c65953f8886ed259"
+  },
+  "name": "Câble DisplayPort 4K vers HDMI, 5 m",
+  "slug": "cable-displayport-4k-vers-hdmi-5-m-cc-dp-hdmi-5m",
+  "sku": "CC-DP-HDMI-5M",
+  "brand": "Gembird",
+  "description": "DP 1.2 • Entrée DisplayPort mâle / sortie HDMI Type-A mâle, plaqués or • 3840 x 2160 @ 60 Hz",
+  "price": {
+   "$numberDecimal": "58.191"
+  },
+  "oldPrice": null,
+  "stock": 9,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "1866c09edec764e5ef8e406b"
+   },
+   "name": "Câbles vidéo",
+   "slug": "cables-video"
+  },
+  "images": [
+   "/uploads/60f0c0b4-3cdb-5ea0-b023-d93711741b5a.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "CC-DP-HDMI-5M"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309098090"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6e440931f254ef0005f1533d"
+  },
+  "name": "Câble HDMI haute vitesse avec Ethernet, 10 m",
+  "slug": "cable-hdmi-haute-vitesse-avec-ethernet-10-m-cc-hdmi4-10m",
+  "sku": "CC-HDMI4-10M",
+  "brand": "Gembird",
+  "description": "Compatible HDMI 2.0 et versions antérieures • 2 x HDMI Type-A mâle, plaqués or",
+  "price": {
+   "$numberDecimal": "47.481"
+  },
+  "oldPrice": null,
+  "stock": 15,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "1866c09edec764e5ef8e406b"
+   },
+   "name": "Câbles vidéo",
+   "slug": "cables-video"
+  },
+  "images": [
+   "/uploads/369d6ded-5110-51cf-9c0e-b85ace542bd1.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "CC-HDMI4-10M"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309065856"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "78102df248614cb2d6e3cc19"
+  },
+  "name": "Câble HDMI haute vitesse avec Ethernet, 30 m",
+  "slug": "cable-hdmi-haute-vitesse-avec-ethernet-30-m-cc-hdmi4-30m",
+  "sku": "CC-HDMI4-30M",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "280.721"
+  },
+  "oldPrice": null,
+  "stock": 15,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "1866c09edec764e5ef8e406b"
+   },
+   "name": "Câbles vidéo",
+   "slug": "cables-video"
+  },
+  "images": [
+   "/uploads/3b00a4e5-e311-5c3c-a36a-f65381843dac.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "CC-HDMI4-30M"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309074339"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "489ac886e3ffc4d4386070ad"
+  },
+  "name": "Câble HDMI passif à double port",
+  "slug": "cable-hdmi-passif-a-double-port-dsp-2ph4-04",
+  "sku": "DSP-2PH4-04",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "14.161"
+  },
+  "oldPrice": null,
+  "stock": 50,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "1866c09edec764e5ef8e406b"
+   },
+   "name": "Câbles vidéo",
+   "slug": "cables-video"
+  },
+  "images": [
+   "/uploads/1f633750-3181-5f2c-9ca9-f42dbe2b490d.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "DSP-2PH4-04"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309096669"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "52a47e37a3b76dcf6ba59ab3"
+  },
+  "name": "Boîtier pour disque dur 2,5\" USB 3.0, noir",
+  "slug": "boitier-pour-disque-dur-2-5-usb-3-0-noir-ee2-u3s-6",
+  "sku": "EE2-U3S-6",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "39.151"
+  },
+  "oldPrice": null,
+  "stock": 30,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "963a952ee5f3bf14854c9031"
+   },
+   "name": "Hubs USB, cartes & acquisition",
+   "slug": "hubs-usb-cartes-acquisition"
+  },
+  "images": [
+   "/uploads/b019d67d-5b33-5a82-b6da-9d4dc09d61f7.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "EE2-U3S-6"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309113526"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "c52b1d98cd86534e1053e350"
+  },
+  "name": "Boîtier pour disque dur 2,5\" USB 3.0, gris",
+  "slug": "boitier-pour-disque-dur-2-5-usb-3-0-gris-ee2-u3s-6-gr",
+  "sku": "EE2-U3S-6-GR",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "39.151"
+  },
+  "oldPrice": null,
+  "stock": 30,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "963a952ee5f3bf14854c9031"
+   },
+   "name": "Hubs USB, cartes & acquisition",
+   "slug": "hubs-usb-cartes-acquisition"
+  },
+  "images": [
+   "/uploads/0bd57719-c4b3-5f03-bdbb-e67e8ebbde77.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "EE2-U3S-6-GR"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309114271"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "5cb05f933d6e9bf9b048d3c0"
+  },
+  "name": "Carte son USB « Virtus2 »",
+  "slug": "carte-son-usb-virtus2-sc-usb-02",
+  "sku": "SC-USB-02",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "15.351"
+  },
+  "oldPrice": null,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "963a952ee5f3bf14854c9031"
+   },
+   "name": "Hubs USB, cartes & acquisition",
+   "slug": "hubs-usb-cartes-acquisition"
+  },
+  "images": [
+   "/uploads/b924b9ff-4588-552e-9051-989f89857ab4.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "SC-USB-02"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309137539"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "706fd7cf10f0ae55ff253d53"
+  },
+  "name": "Hub USB Type-C, 4 ports USB 3.1 Gen 1, argent",
+  "slug": "hub-usb-type-c-4-ports-usb-3-1-gen-1-argent-uhb-acm-u3p1u2p6-01",
+  "sku": "UHB-ACM-U3P1U2P6-01",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "23.681"
+  },
+  "oldPrice": null,
+  "stock": 70,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "963a952ee5f3bf14854c9031"
+   },
+   "name": "Hubs USB, cartes & acquisition",
+   "slug": "hubs-usb-cartes-acquisition"
+  },
+  "images": [
+   "/uploads/01fe6a3e-4a26-5236-9c7a-fa3ac3ec1bd8.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "UHB-ACM-U3P1U2P6-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309138222"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "2fb6893226c3419fa9c3d6c6"
+  },
+  "name": "Hub USB Type-C, 3 ports USB 3.0 + lecteur de cartes",
+  "slug": "hub-usb-type-c-3-ports-usb-3-0-lecteur-de-cartes-uhb-cm-cru3p1u2p2-01",
+  "sku": "UHB-CM-CRU3P1U2P2-01",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "32.011"
+  },
+  "oldPrice": null,
+  "stock": 100,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "963a952ee5f3bf14854c9031"
+   },
+   "name": "Hubs USB, cartes & acquisition",
+   "slug": "hubs-usb-cartes-acquisition"
+  },
+  "images": [
+   "/uploads/be0a20cd-dd74-5867-8dd4-230ca2f460a9.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "UHB-CM-CRU3P1U2P2-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309124232"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "765e6f916a398b4f7dc4b6aa"
+  },
+  "name": "Hub USB 3.2 Gen 2 Type-C, 4 ports A + C",
+  "slug": "hub-usb-3-2-gen-2-type-c-4-ports-a-c-uhb-cm-u310-a2c2-01",
+  "sku": "UHB-CM-U310-A2C2-01",
+  "brand": "Gembird",
+  "description": "Aluminium + ABS • Rétrocompatible USB 3.x / 2.0",
+  "price": {
+   "$numberDecimal": "59.381"
+  },
+  "oldPrice": null,
+  "stock": 430,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "963a952ee5f3bf14854c9031"
+   },
+   "name": "Hubs USB, cartes & acquisition",
+   "slug": "hubs-usb-cartes-acquisition"
+  },
+  "images": [
+   "/uploads/b49cd620-6de1-5f84-989d-c47cc7bfe8a4.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "UHB-CM-U310-A2C2-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309137232"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "3e5e009277d97cb4e9f9055e"
+  },
+  "name": "Hub USB 3.2 Gen 2 Type-C, 4 ports",
+  "slug": "hub-usb-3-2-gen-2-type-c-4-ports-uhb-cm-u310-a4-01",
+  "sku": "UHB-CM-U310-A4-01",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "65.331"
+  },
+  "oldPrice": null,
+  "stock": 470,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "963a952ee5f3bf14854c9031"
+   },
+   "name": "Hubs USB, cartes & acquisition",
+   "slug": "hubs-usb-cartes-acquisition"
+  },
+  "images": [
+   "/uploads/2a4db511-f32b-5e92-9780-53f6299ee8a8.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "UHB-CM-U310-A4-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309137218"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "c2ea209746b6bec9415a3bfa"
+  },
+  "name": "Hub USB Type-C 4 ports",
+  "slug": "hub-usb-type-c-4-ports-uhb-cm-u3p1u2p3-01",
+  "sku": "UHB-CM-U3P1U2P3-01",
+  "brand": "Gembird",
+  "description": "1 x USB 3.1 + 3 x USB 2.0",
+  "price": {
+   "$numberDecimal": "71.281"
+  },
+  "oldPrice": null,
+  "stock": 100,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "963a952ee5f3bf14854c9031"
+   },
+   "name": "Hubs USB, cartes & acquisition",
+   "slug": "hubs-usb-cartes-acquisition"
+  },
+  "images": [
+   "/uploads/ae6a8c70-c505-530d-90a4-3930761070ea.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "UHB-CM-U3P1U2P3-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309124225"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "c165673d80ef4bd83c86da8e"
+  },
+  "name": "Hub USB Type-C, 4 ports USB 3.1 Gen 1, argent",
+  "slug": "hub-usb-type-c-4-ports-usb-3-1-gen-1-argent-uhb-cm-u3p1u2p3-03",
+  "sku": "UHB-CM-U3P1U2P3-03",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "15.351"
+  },
+  "oldPrice": null,
+  "stock": 100,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "963a952ee5f3bf14854c9031"
+   },
+   "name": "Hubs USB, cartes & acquisition",
+   "slug": "hubs-usb-cartes-acquisition"
+  },
+  "images": [
+   "/uploads/9a9f0ec9-bb7d-5f2f-b84b-8550009da5a2.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "UHB-CM-U3P1U2P3-03"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309130851"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "d775f3e29cc322165edb83cc"
+  },
+  "name": "Hub USB 3.1 Gen 1 Type-C, 4 ports",
+  "slug": "hub-usb-3-1-gen-1-type-c-4-ports-uhb-cm-u3p4-02",
+  "sku": "UHB-CM-U3P4-02",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "27.251"
+  },
+  "oldPrice": null,
+  "stock": 80,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "963a952ee5f3bf14854c9031"
+   },
+   "name": "Hubs USB, cartes & acquisition",
+   "slug": "hubs-usb-cartes-acquisition"
+  },
+  "images": [
+   "/uploads/5fdab3f5-9fe2-5a16-8946-b0957917c425.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "UHB-CM-U3P4-02"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309129718"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "79b109bd6be41f71559685c7"
+  },
+  "name": "Lecteur de cartes mémoire SD compact, USB 3.0",
+  "slug": "lecteur-de-cartes-memoire-sd-compact-usb-3-0-uhb-cr3-01",
+  "sku": "UHB-CR3-01",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "22.491"
+  },
+  "oldPrice": null,
+  "stock": 20,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "963a952ee5f3bf14854c9031"
+   },
+   "name": "Hubs USB, cartes & acquisition",
+   "slug": "hubs-usb-cartes-acquisition"
+  },
+  "images": [
+   "/uploads/60e789f0-ff60-5391-9d8f-6a0bb802f049.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "UHB-CR3-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309087704"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "b06724301d34808fdf67f386"
+  },
+  "name": "Hub USB 2.0, 10 ports",
+  "slug": "hub-usb-2-0-10-ports-uhb-u2p10p-01",
+  "sku": "UHB-U2P10P-01",
+  "brand": "Gembird",
+  "description": "USB 2.0 (compatible 1.1) • 480 Mbit/s",
+  "price": {
+   "$numberDecimal": "40.341"
+  },
+  "oldPrice": null,
+  "stock": 50,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "963a952ee5f3bf14854c9031"
+   },
+   "name": "Hubs USB, cartes & acquisition",
+   "slug": "hubs-usb-cartes-acquisition"
+  },
+  "images": [
+   "/uploads/03818a91-304c-5871-a56b-24858a3f4a20.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "UHB-U2P10P-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309124638"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "cdd9550d7f7c2837efa03c09"
+  },
+  "name": "Hub USB 2.0, 4 ports",
+  "slug": "hub-usb-2-0-4-ports-uhb-u2p4-04",
+  "sku": "UHB-U2P4-04",
+  "brand": "Gembird",
+  "description": "Haute vitesse, 480 Mbit/s max.",
+  "price": {
+   "$numberDecimal": "16.541"
+  },
+  "oldPrice": null,
+  "stock": 100,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "963a952ee5f3bf14854c9031"
+   },
+   "name": "Hubs USB, cartes & acquisition",
+   "slug": "hubs-usb-cartes-acquisition"
+  },
+  "images": [
+   "/uploads/ddcde57b-74c4-5f0b-87bb-f1b37916bf6f.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "UHB-U2P4-04"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309117647"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "ee0db485aea5fc117f04cf97"
+  },
+  "name": "Concentrateur USB 3.1 Gen 1, 4 ports",
+  "slug": "concentrateur-usb-3-1-gen-1-4-ports-uhb-u3p4-03",
+  "sku": "UHB-U3P4-03",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "28.441"
+  },
+  "oldPrice": null,
+  "stock": 50,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "963a952ee5f3bf14854c9031"
+   },
+   "name": "Hubs USB, cartes & acquisition",
+   "slug": "hubs-usb-cartes-acquisition"
+  },
+  "images": [
+   "/uploads/3d40624f-efec-59d4-884c-b937a93493e4.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "UHB-U3P4-03"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309117012"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "77e51fcbf58f52bf714d74d5"
+  },
+  "name": "Hub USB 3.2 Gen 1, 4 ports",
+  "slug": "hub-usb-3-2-gen-1-4-ports-uhb-u3p4p-02",
+  "sku": "UHB-U3P4P-02",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "35.581"
+  },
+  "oldPrice": null,
+  "stock": 131,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "963a952ee5f3bf14854c9031"
+   },
+   "name": "Hubs USB, cartes & acquisition",
+   "slug": "hubs-usb-cartes-acquisition"
+  },
+  "images": [
+   "/uploads/94e6baf5-f8d4-5b6b-bf39-e32766170c40.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "UHB-U3P4P-02"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309128858"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "ce7996d05d93c626f51bd761"
+  },
+  "name": "Boîtier d'acquisition vidéo HDMI USB 4K",
+  "slug": "boitier-d-acquisition-video-hdmi-usb-4k-uhg-4k2-01",
+  "sku": "UHG-4K2-01",
+  "brand": "Gembird",
+  "description": "Avec sortie HDMI (pass-through)",
+  "price": {
+   "$numberDecimal": "105.791"
+  },
+  "oldPrice": null,
+  "stock": 30,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "963a952ee5f3bf14854c9031"
+   },
+   "name": "Hubs USB, cartes & acquisition",
+   "slug": "hubs-usb-cartes-acquisition"
+  },
+  "images": [
+   "/uploads/69755ce6-0294-5cf9-94c5-1967669e8da8.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "UHG-4K2-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309120838"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "fa7e354f431b2ae0905e3303"
+  },
+  "name": "Carte PCI-Express vers USB 3.2 Gen 1 (clé A)",
+  "slug": "carte-pci-express-vers-usb-3-2-gen-1-cle-a-upc-u3",
+  "sku": "UPC-U3",
+  "brand": "Gembird",
+  "description": "Convertit un slot PCI-E x1 en connecteur interne USB 3.2 Gen 1 Type-E",
+  "price": {
+   "$numberDecimal": "67.711"
+  },
+  "oldPrice": null,
+  "stock": 30,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "963a952ee5f3bf14854c9031"
+   },
+   "name": "Hubs USB, cartes & acquisition",
+   "slug": "hubs-usb-cartes-acquisition"
+  },
+  "images": [
+   "/uploads/401963d2-edbe-5c61-9343-260d63984a4d.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "UPC-U3"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309138192"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "ed2c2fb7e1f4322e25ff417c"
+  },
+  "name": "Appareil de capture vidéo USB",
+  "slug": "appareil-de-capture-video-usb-uvg-002",
+  "sku": "UVG-002",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "55.811"
+  },
+  "oldPrice": null,
+  "stock": 5,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "963a952ee5f3bf14854c9031"
+   },
+   "name": "Hubs USB, cartes & acquisition",
+   "slug": "hubs-usb-cartes-acquisition"
+  },
+  "images": [
+   "/uploads/d13b6079-7fb0-52ae-a05f-5faafb130ec7.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "UVG-002"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309079983"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "8a766f1c224a6313d728c556"
+  },
+  "name": "Adaptateur Wi-Fi USB AC1300 double bande compact",
+  "slug": "adaptateur-wi-fi-usb-ac1300-double-bande-compact-wnp-ua1300-03",
+  "sku": "WNP-UA1300-03",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "53.431"
+  },
+  "oldPrice": null,
+  "stock": 100,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "963a952ee5f3bf14854c9031"
+   },
+   "name": "Hubs USB, cartes & acquisition",
+   "slug": "hubs-usb-cartes-acquisition"
+  },
+  "images": [
+   "/uploads/fc9031dd-569a-55af-b4f9-b15eed4fb100.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "WNP-UA1300-03"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309129435"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "fecbf03d625c30f3d8a10266"
+  },
+  "name": "Support plafond TV orientable, 23\"-55\"",
+  "slug": "support-plafond-tv-orientable-23-55-cm-55st-01",
+  "sku": "CM-55ST-01",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "71.281"
+  },
+  "oldPrice": null,
+  "stock": 24,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "76b6fdff8beb124491be427b"
+   },
+   "name": "Supports TV, meubles & projecteurs",
+   "slug": "supports-tv-meubles-projecteurs"
+  },
+  "images": [
+   "/uploads/ea2007a7-3876-5304-8761-e5bf0cdf3824.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "CM-55ST-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309135184"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "a39aafe4104d7a369f4c7838"
+  },
+  "name": "Support plafond TV orientable, 32\"-70\"",
+  "slug": "support-plafond-tv-orientable-32-70-cm-70st-01",
+  "sku": "CM-70ST-01",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "148.631"
+  },
+  "oldPrice": null,
+  "stock": 12,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "76b6fdff8beb124491be427b"
+   },
+   "name": "Supports TV, meubles & projecteurs",
+   "slug": "supports-tv-meubles-projecteurs"
+  },
+  "images": [
+   "/uploads/2f54b74c-37dd-5bb1-8b14-286d3d1599f2.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "CM-70ST-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309128087"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "9c4448d75747cb143a255d86"
+  },
+  "name": "Meuble TV, 32\"-55\", noir",
+  "slug": "meuble-tv-32-55-noir-tvs-55t-02",
+  "sku": "TVS-55T-02",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "356.881"
+  },
+  "oldPrice": null,
+  "stock": 2,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "76b6fdff8beb124491be427b"
+   },
+   "name": "Supports TV, meubles & projecteurs",
+   "slug": "supports-tv-meubles-projecteurs"
+  },
+  "images": [
+   "/uploads/2853809e-a64d-5ab8-89d8-c12b76166f82.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "TVS-55T-02"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309135092"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "a9e340a1156e03c0749130f4"
+  },
+  "name": "Meuble TV à roulettes (inclinable), 32\"-55\", noir",
+  "slug": "meuble-tv-a-roulettes-inclinable-32-55-noir-tvs-55t-03",
+  "sku": "TVS-55T-03",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "225.981"
+  },
+  "oldPrice": null,
+  "stock": 25,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "76b6fdff8beb124491be427b"
+   },
+   "name": "Supports TV, meubles & projecteurs",
+   "slug": "supports-tv-meubles-projecteurs"
+  },
+  "images": [
+   "/uploads/ccd0be40-de58-50e3-a0c7-530ac8776846.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "TVS-55T-03"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309135467"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "78e1b480c52fe05acd916325"
+  },
+  "name": "Meuble TV à roulettes (inclinable), 32\"-55\", blanc",
+  "slug": "meuble-tv-a-roulettes-inclinable-32-55-blanc-tvs-55t-03-w",
+  "sku": "TVS-55T-03-W",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "225.981"
+  },
+  "oldPrice": null,
+  "stock": 25,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "76b6fdff8beb124491be427b"
+   },
+   "name": "Supports TV, meubles & projecteurs",
+   "slug": "supports-tv-meubles-projecteurs"
+  },
+  "images": [
+   "/uploads/1de245d8-6502-500e-8006-46e7a5d86eee.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "TVS-55T-03-W"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309135511"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "2ef06ac969139957163101fa"
+  },
+  "name": "Support TV sur pied en aluminium avec roulettes, 37\"-70\", noir",
+  "slug": "support-tv-sur-pied-en-aluminium-avec-roulettes-37-70-noir-tvs-70t-02",
+  "sku": "TVS-70T-02",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "886.431"
+  },
+  "oldPrice": null,
+  "stock": 35,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "76b6fdff8beb124491be427b"
+   },
+   "name": "Supports TV, meubles & projecteurs",
+   "slug": "supports-tv-meubles-projecteurs"
+  },
+  "images": [
+   "/uploads/36d009cd-4486-5615-b463-7e89b9b2762d.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "TVS-70T-02"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309129008"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "8bc082bb467721d537314205"
+  },
+  "name": "Support de sol TV en aluminium avec roulettes, 37\"-70\", blanc",
+  "slug": "support-de-sol-tv-en-aluminium-avec-roulettes-37-70-blanc-tvs-70t-02-w",
+  "sku": "TVS-70T-02-W",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "886.431"
+  },
+  "oldPrice": null,
+  "stock": 9,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "76b6fdff8beb124491be427b"
+   },
+   "name": "Supports TV, meubles & projecteurs",
+   "slug": "supports-tv-meubles-projecteurs"
+  },
+  "images": [
+   "/uploads/965a1650-83ae-5c2c-8b14-43cc73bdeeee.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "TVS-70T-02-W"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309128995"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "c256e234d71c20026697e05b"
+  },
+  "name": "Meuble TV à roulettes, 37\"-75\", noir",
+  "slug": "meuble-tv-a-roulettes-37-75-noir-tvs-75s-02",
+  "sku": "TVS-75S-02",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "309.281"
+  },
+  "oldPrice": null,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "76b6fdff8beb124491be427b"
+   },
+   "name": "Supports TV, meubles & projecteurs",
+   "slug": "supports-tv-meubles-projecteurs"
+  },
+  "images": [
+   "/uploads/79558ac4-4e41-57ef-8b97-8afa92b3eb73.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "TVS-75S-02"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309135054"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "37a354190fa5e2ff62fd720d"
+  },
+  "name": "Meuble TV, 43\"-86\", noir",
+  "slug": "meuble-tv-43-86-noir-tvs-86st-01",
+  "sku": "TVS-86ST-01",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "440.181"
+  },
+  "oldPrice": null,
+  "stock": 2,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "76b6fdff8beb124491be427b"
+   },
+   "name": "Supports TV, meubles & projecteurs",
+   "slug": "supports-tv-meubles-projecteurs"
+  },
+  "images": [
+   "/uploads/ecf055e9-7339-5351-b1d0-a979515143da.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "TVS-86ST-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309135108"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "15ca28c82ae75d260d3d22be"
+  },
+  "name": "Meuble TV métal à roulettes, 55\"-86\", blanc",
+  "slug": "meuble-tv-metal-a-roulettes-55-86-blanc-tvs-86tr-01-w",
+  "sku": "TVS-86TR-01-W",
+  "brand": "Gembird",
+  "description": "Hauteur réglable • Étagère pour équipement • Roues pivotantes avec blocage",
+  "price": {
+   "$numberDecimal": "416.381"
+  },
+  "oldPrice": null,
+  "stock": 5,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "76b6fdff8beb124491be427b"
+   },
+   "name": "Supports TV, meubles & projecteurs",
+   "slug": "supports-tv-meubles-projecteurs"
+  },
+  "images": [
+   "/uploads/b66d353a-6c14-5504-a5d4-dad5bb191792.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "TVS-86TR-01-W"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309135047"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "309017832ab090b8598da013"
+  },
+  "name": "Meuble TV de table (pivotant), 32\"-65\"",
+  "slug": "meuble-tv-de-table-pivotant-32-65-tvs-d65s-01",
+  "sku": "TVS-D65S-01",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "86.751"
+  },
+  "oldPrice": null,
+  "stock": 20,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "76b6fdff8beb124491be427b"
+   },
+   "name": "Supports TV, meubles & projecteurs",
+   "slug": "supports-tv-meubles-projecteurs"
+  },
+  "images": [
+   "/uploads/64fac6cf-8a72-55eb-aac3-e380ec7379b8.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "TVS-D65S-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309135061"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "406dde99d0ffb17b36fb8813"
+  },
+  "name": "Support mural TV fixe, 23\"-42\"",
+  "slug": "support-mural-tv-fixe-23-42-wm-42f-04",
+  "sku": "WM-42F-04",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "15.351"
+  },
+  "oldPrice": null,
+  "stock": 26,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "76b6fdff8beb124491be427b"
+   },
+   "name": "Supports TV, meubles & projecteurs",
+   "slug": "supports-tv-meubles-projecteurs"
+  },
+  "images": [
+   "/uploads/22ff67cf-b15f-59f4-9763-67c74403ff1d.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "WM-42F-04"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309127998"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "652fd7ef2358ff26b4259b99"
+  },
+  "name": "Support mural TV fixe, 32\"-55\"",
+  "slug": "support-mural-tv-fixe-32-55-wm-55f-04",
+  "sku": "WM-55F-04",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "23.681"
+  },
+  "oldPrice": null,
+  "stock": 32,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "76b6fdff8beb124491be427b"
+   },
+   "name": "Supports TV, meubles & projecteurs",
+   "slug": "supports-tv-meubles-projecteurs"
+  },
+  "images": [
+   "/uploads/e4f0446d-a24e-5a47-9a1b-163c09afdb77.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "WM-55F-04"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309128018"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "dbd72baf2ea98aa412a0b3df"
+  },
+  "name": "Support mural TV, 37\"-70\"",
+  "slug": "support-mural-tv-37-70-wm-70f-02",
+  "sku": "WM-70F-02",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "29.631"
+  },
+  "oldPrice": null,
+  "stock": 16,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "76b6fdff8beb124491be427b"
+   },
+   "name": "Supports TV, meubles & projecteurs",
+   "slug": "supports-tv-meubles-projecteurs"
+  },
+  "images": [
+   "/uploads/4ace3cfe-79f6-508b-bc0f-827c04ed8dbe.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "WM-70F-02"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309127936"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "5b6d8d7bb265fff0398e982f"
+  },
+  "name": "Support mural TV, 37\"-70\"",
+  "slug": "support-mural-tv-37-70-wm-70f-03",
+  "sku": "WM-70F-03",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "29.631"
+  },
+  "oldPrice": null,
+  "stock": 28,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "76b6fdff8beb124491be427b"
+   },
+   "name": "Supports TV, meubles & projecteurs",
+   "slug": "supports-tv-meubles-projecteurs"
+  },
+  "images": [
+   "/uploads/fe50e45e-af64-533f-8f66-100c6be2f3c4.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "WM-70F-03"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309128032"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "1a4a38331a93c4c7e6226161"
+  },
+  "name": "Support mural TV orientable, 37\"-80\"",
+  "slug": "support-mural-tv-orientable-37-80-wm-80st-02",
+  "sku": "WM-80ST-02",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "153.391"
+  },
+  "oldPrice": null,
+  "stock": 15,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "76b6fdff8beb124491be427b"
+   },
+   "name": "Supports TV, meubles & projecteurs",
+   "slug": "supports-tv-meubles-projecteurs"
+  },
+  "images": [
+   "/uploads/231cdde4-2f74-5f09-8833-ce515c267b29.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "WM-80ST-02"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309126229"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "8ca535add966e0d81e1cc71f"
+  },
+  "name": "Support mural pour écran LCD / Plasma, 37\"-80\"",
+  "slug": "support-mural-pour-ecran-lcd-plasma-37-80-wm-80st-05",
+  "sku": "WM-80ST-05",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "158.151"
+  },
+  "oldPrice": null,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "76b6fdff8beb124491be427b"
+   },
+   "name": "Supports TV, meubles & projecteurs",
+   "slug": "supports-tv-meubles-projecteurs"
+  },
+  "images": [
+   "/uploads/a035dee5-c52a-5ca4-a285-fa4141a89138.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "WM-80ST-05"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309127806"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "54ae50ae2958bcb220ae0286"
+  },
+  "name": "Support mural TV, 43\"-90\"",
+  "slug": "support-mural-tv-43-90-wm-90f-01",
+  "sku": "WM-90F-01",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "71.281"
+  },
+  "oldPrice": null,
+  "stock": 12,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "76b6fdff8beb124491be427b"
+   },
+   "name": "Supports TV, meubles & projecteurs",
+   "slug": "supports-tv-meubles-projecteurs"
+  },
+  "images": [
+   "/uploads/d9fd89bb-ca17-5265-81c0-5764996e7ca1.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "WM-90F-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309126175"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "2d097158cdac0b94fb5b4ca2"
+  },
+  "name": "Kit de vis de fixation murale universelle",
+  "slug": "kit-de-vis-de-fixation-murale-universelle-wm-kit-01",
+  "sku": "WM-KIT-01",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "18.921"
+  },
+  "oldPrice": null,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "76b6fdff8beb124491be427b"
+   },
+   "name": "Supports TV, meubles & projecteurs",
+   "slug": "supports-tv-meubles-projecteurs"
+  },
+  "images": [
+   "/uploads/ac65d893-dd9e-5a20-a2bd-7023379bcb5a.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "WM-KIT-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309135498"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "8e95e28f2e2aefb42a2c6575"
+  },
+  "name": "Bras d'écran de bureau réglable, 17\"-32\"",
+  "slug": "bras-d-ecran-de-bureau-reglable-17-32-ma-d1-01",
+  "sku": "MA-D1-01",
+  "brand": "Gembird",
+  "description": "Jusqu'à 9 kg",
+  "price": {
+   "$numberDecimal": "77.231"
+  },
+  "oldPrice": null,
+  "stock": 6,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07e73e79fdc09ee14bac56c3"
+   },
+   "name": "Bras & supports d'écran, PC portable",
+   "slug": "bras-supports-d-ecran-pc-portable"
+  },
+  "images": [
+   "/uploads/222dea33-e0c4-5c5f-8af4-e6426e71568c.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "MA-D1-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309126069"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "4baa5d576652e506f3f11332"
+  },
+  "name": "Bras pour écran simple monté sur bureau, 17\"-32\"",
+  "slug": "bras-pour-ecran-simple-monte-sur-bureau-17-32-ma-d1-02",
+  "sku": "MA-D1-02",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "58.191"
+  },
+  "oldPrice": null,
+  "stock": 6,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07e73e79fdc09ee14bac56c3"
+   },
+   "name": "Bras & supports d'écran, PC portable",
+   "slug": "bras-supports-d-ecran-pc-portable"
+  },
+  "images": [
+   "/uploads/440405d2-15d4-5b0d-8245-e20cdb370920.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "MA-D1-02"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309127561"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "2d145dc04e332dc41e3e0660"
+  },
+  "name": "Bras pour écran simple monté sur bureau, 17\"-32\"",
+  "slug": "bras-pour-ecran-simple-monte-sur-bureau-17-32-ma-d1-03",
+  "sku": "MA-D1-03",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "65.331"
+  },
+  "oldPrice": null,
+  "stock": 6,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07e73e79fdc09ee14bac56c3"
+   },
+   "name": "Bras & supports d'écran, PC portable",
+   "slug": "bras-supports-d-ecran-pc-portable"
+  },
+  "images": [
+   "/uploads/76a32353-8432-5617-9bd8-94659b0ed4c5.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "MA-D1-03"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309127585"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "a0c2abc99bd88bb94e140e3f"
+  },
+  "name": "Support 2 écrans ajustable (inclinable), 17\"-32\"",
+  "slug": "support-2-ecrans-ajustable-inclinable-17-32-ma-d2-02",
+  "sku": "MA-D2-02",
+  "brand": "Gembird",
+  "description": "Jusqu'à 9 kg",
+  "price": {
+   "$numberDecimal": "93.891"
+  },
+  "oldPrice": null,
+  "stock": 4,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07e73e79fdc09ee14bac56c3"
+   },
+   "name": "Bras & supports d'écran, PC portable",
+   "slug": "bras-supports-d-ecran-pc-portable"
+  },
+  "images": [
+   "/uploads/11a36de9-168e-5412-ab2d-a04a9a54c990.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "MA-D2-02"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309127592"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "38a8227b5e195718b73922ee"
+  },
+  "name": "Bras pour écran double réglable monté sur bureau, 17\"-32\"",
+  "slug": "bras-pour-ecran-double-reglable-monte-sur-bureau-17-32-ma-d2-03",
+  "sku": "MA-D2-03",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "110.075"
+  },
+  "oldPrice": null,
+  "stock": 20,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07e73e79fdc09ee14bac56c3"
+   },
+   "name": "Bras & supports d'écran, PC portable",
+   "slug": "bras-supports-d-ecran-pc-portable"
+  },
+  "images": [
+   "/uploads/8cef5b1e-a5d4-592a-9f43-3ea800d8f176.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "MA-D2-03"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309128155"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "fafdc078f7968e73fa86835e"
+  },
+  "name": "Bras de montage réglable pour 4 écrans, 13\"-32\"",
+  "slug": "bras-de-montage-reglable-pour-4-ecrans-13-32-ma-d4-01",
+  "sku": "MA-D4-01",
+  "brand": "Gembird",
+  "description": "Rotation, inclinaison, pivotement",
+  "price": {
+   "$numberDecimal": "154.581"
+  },
+  "oldPrice": null,
+  "stock": 6,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07e73e79fdc09ee14bac56c3"
+   },
+   "name": "Bras & supports d'écran, PC portable",
+   "slug": "bras-supports-d-ecran-pc-portable"
+  },
+  "images": [
+   "/uploads/6a9223ac-2ab5-5fdf-b188-a7f9b7662c08.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "MA-D4-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309135399"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "fe2878a838eeb432d077d3a4"
+  },
+  "name": "Support d'écran, 17\"-32\"",
+  "slug": "support-d-ecran-17-32-ma-da1-05",
+  "sku": "MA-DA1-05",
+  "brand": "Gembird",
+  "description": "Jusqu'à 9 kg",
+  "price": {
+   "$numberDecimal": "106.981"
+  },
+  "oldPrice": null,
+  "stock": 12,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07e73e79fdc09ee14bac56c3"
+   },
+   "name": "Bras & supports d'écran, PC portable",
+   "slug": "bras-supports-d-ecran-pc-portable"
+  },
+  "images": [
+   "/uploads/b3a66828-e5ed-5e34-b042-e05d7df1611c.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "MA-DA1-05"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309127707"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "2fd7f2a91640c6b76eb91fa6"
+  },
+  "name": "Bras double écran réglable de bureau, gris sidéral",
+  "slug": "bras-double-ecran-reglable-de-bureau-gris-sideral-ma-da2-05",
+  "sku": "MA-DA2-05",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "189.091"
+  },
+  "oldPrice": null,
+  "stock": 12,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07e73e79fdc09ee14bac56c3"
+   },
+   "name": "Bras & supports d'écran, PC portable",
+   "slug": "bras-supports-d-ecran-pc-portable"
+  },
+  "images": [
+   "/uploads/832ed756-f264-52c9-828a-b3ba3dca1397.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "MA-DA2-05"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309127714"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "b9801ace6d582e019e40922c"
+  },
+  "name": "Bras mural réglable pour écran, jusqu'à 27\"",
+  "slug": "bras-mural-reglable-pour-ecran-jusqu-a-27-ma-wa1-01",
+  "sku": "MA-WA1-01",
+  "brand": "Gembird",
+  "description": "Jusqu'à 7 kg",
+  "price": {
+   "$numberDecimal": "101.031"
+  },
+  "oldPrice": null,
+  "stock": 20,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07e73e79fdc09ee14bac56c3"
+   },
+   "name": "Bras & supports d'écran, PC portable",
+   "slug": "bras-supports-d-ecran-pc-portable"
+  },
+  "images": [
+   "/uploads/3dbac15b-c76f-5465-b307-d035a7425de0.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "MA-WA1-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309106887"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "8af1d1550a18b528c6e9b618"
+  },
+  "name": "Bras mural réglable pour 2 écrans, 17\"-32\"",
+  "slug": "bras-mural-reglable-pour-2-ecrans-17-32-ma-wa2-02",
+  "sku": "MA-WA2-02",
+  "brand": "Gembird",
+  "description": "Jusqu'à 8 kg",
+  "price": {
+   "$numberDecimal": "296.191"
+  },
+  "oldPrice": null,
+  "stock": 1,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07e73e79fdc09ee14bac56c3"
+   },
+   "name": "Bras & supports d'écran, PC portable",
+   "slug": "bras-supports-d-ecran-pc-portable"
+  },
+  "images": [
+   "/uploads/7b449dfb-b25c-5e1e-b55e-1835db1cd18b.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "MA-WA2-02"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309127660"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "c9148903b2103c9eb81c12ba"
+  },
+  "name": "Bras mural réglable pour 3 moniteurs",
+  "slug": "bras-mural-reglable-pour-3-moniteurs-ma-wa3-01",
+  "sku": "MA-WA3-01",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "343.791"
+  },
+  "oldPrice": null,
+  "stock": 2,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07e73e79fdc09ee14bac56c3"
+   },
+   "name": "Bras & supports d'écran, PC portable",
+   "slug": "bras-supports-d-ecran-pc-portable"
+  },
+  "images": [
+   "/uploads/bcd58e14-c19c-57cd-9f11-6afc550eb36f.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "MA-WA3-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309127677"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "aea3caad3e8455bc4632f3ff"
+  },
+  "name": "Support pliable pour ordinateur portable, argenté",
+  "slug": "support-pliable-pour-ordinateur-portable-argente-nbs-d1-03",
+  "sku": "NBS-D1-03",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "101.031"
+  },
+  "oldPrice": null,
+  "stock": 20,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07e73e79fdc09ee14bac56c3"
+   },
+   "name": "Bras & supports d'écran, PC portable",
+   "slug": "bras-supports-d-ecran-pc-portable"
+  },
+  "images": [
+   "/uploads/050142c5-8d16-5bc7-9697-3c4bead4fbfc.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "NBS-D1-03"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309127752"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "dfef88d2575f828d75144295"
+  },
+  "name": "Support pliable pour ordinateur portable, gris sidéral",
+  "slug": "support-pliable-pour-ordinateur-portable-gris-sideral-nbs-d1-04",
+  "sku": "NBS-D1-04",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "47.481"
+  },
+  "oldPrice": null,
+  "stock": 269,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07e73e79fdc09ee14bac56c3"
+   },
+   "name": "Bras & supports d'écran, PC portable",
+   "slug": "bras-supports-d-ecran-pc-portable"
+  },
+  "images": [
+   "/uploads/37cd17f1-2a0d-52d0-9db8-5ad0fe32f3dc.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "NBS-D1-04"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309132329"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "89166f0e6589c3d1f130e64c"
+  },
+  "name": "Support rotatif pour ordinateur portable, gris sidéral",
+  "slug": "support-rotatif-pour-ordinateur-portable-gris-sideral-nbs-dr1-01",
+  "sku": "NBS-DR1-01",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "58.191"
+  },
+  "oldPrice": null,
+  "stock": 150,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "07e73e79fdc09ee14bac56c3"
+   },
+   "name": "Bras & supports d'écran, PC portable",
+   "slug": "bras-supports-d-ecran-pc-portable"
+  },
+  "images": [
+   "/uploads/e09d75f9-5a45-5f9a-83ae-e9f33560f0cc.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "NBS-DR1-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309132336"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "c9c323b2be4f3f9778b32474"
+  },
+  "name": "Microphone de bureau",
+  "slug": "microphone-de-bureau-mic-205",
+  "sku": "MIC-205",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "17.731"
+  },
+  "oldPrice": null,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "e934924b77a7d0676fd62938"
+   },
+   "name": "Souris & microphones",
+   "slug": "souris-microphones"
+  },
+  "images": [
+   "/uploads/cab34b20-c6d9-5652-8221-276e06a16bda.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "MIC-205"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309079914"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "5aacca84fd10fdd2a9bd36b9"
+  },
+  "name": "Microphone de bureau, noir",
+  "slug": "microphone-de-bureau-noir-mic-d-02",
+  "sku": "MIC-D-02",
+  "brand": "Gembird",
+  "description": "Fiche audio 3,5 mm • 100 Hz - 16 kHz • Sensibilité -62 ±3 dB",
+  "price": {
+   "$numberDecimal": "15.351"
+  },
+  "oldPrice": null,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "e934924b77a7d0676fd62938"
+   },
+   "name": "Souris & microphones",
+   "slug": "souris-microphones"
+  },
+  "images": [
+   "/uploads/a0af8930-914d-54c2-827b-b6c2b4115fb7.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "MIC-D-02"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309100557"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "4192c791b4115e91c417153e"
+  },
+  "name": "Microphone de bureau, noir",
+  "slug": "microphone-de-bureau-noir-mic-d-04",
+  "sku": "MIC-D-04",
+  "brand": "Gembird",
+  "description": "Jack 3,5 mm TRS • Micro à condensateur • 20 Hz - 20 kHz • Sensibilité -58 ±3 dB",
+  "price": {
+   "$numberDecimal": "21.301"
+  },
+  "oldPrice": null,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "e934924b77a7d0676fd62938"
+   },
+   "name": "Souris & microphones",
+   "slug": "souris-microphones"
+  },
+  "images": [
+   "/uploads/f110e631-c371-501f-83ad-f0db0d004005.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "MIC-D-04"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309117197"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "232f7365bee37e7327308a6a"
+  },
+  "name": "Microphone de bureau USB avec carte son intégrée",
+  "slug": "microphone-de-bureau-usb-avec-carte-son-integree-mic-du-01",
+  "sku": "MIC-DU-01",
+  "brand": "Gembird",
+  "description": "USB 2.0 • Condensateur omnidirectionnel • -40 ±3 dB",
+  "price": {
+   "$numberDecimal": "39.151"
+  },
+  "oldPrice": null,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "e934924b77a7d0676fd62938"
+   },
+   "name": "Souris & microphones",
+   "slug": "souris-microphones"
+  },
+  "images": [
+   "/uploads/88cdb1ec-a120-5591-8173-13319d2515f0.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "MIC-DU-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309117371"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "13cdf2418fc5c39cb0057a96"
+  },
+  "name": "Souris optique filaire ergonomique 6 boutons, noire",
+  "slug": "souris-optique-filaire-ergonomique-6-boutons-noire-mus-ergo-01",
+  "sku": "MUS-ERGO-01",
+  "brand": "Gembird",
+  "description": "USB • 1200 / 1600 / 2400 / 3200 DPI • Pour droitier",
+  "price": {
+   "$numberDecimal": "30.821"
+  },
+  "oldPrice": null,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "e934924b77a7d0676fd62938"
+   },
+   "name": "Souris & microphones",
+   "slug": "souris-microphones"
+  },
+  "images": [
+   "/uploads/c3ef7406-30a7-5973-b3e7-41057f462202.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "MUS-ERGO-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309104890"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "903a4d647aebf896f8458b42"
+  },
+  "name": "Souris optique filaire ergonomique 6 boutons, gris clair",
+  "slug": "souris-optique-filaire-ergonomique-6-boutons-gris-clair-mus-ergo-03",
+  "sku": "MUS-ERGO-03",
+  "brand": "Gembird",
+  "description": "USB • 800 / 1600 / 2400 / 3200 DPI",
+  "price": {
+   "$numberDecimal": "47.481"
+  },
+  "oldPrice": null,
+  "stock": 10,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "e934924b77a7d0676fd62938"
+   },
+   "name": "Souris & microphones",
+   "slug": "souris-microphones"
+  },
+  "images": [
+   "/uploads/22d309d4-86fd-5176-a041-4737aee864cb.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "MUS-ERGO-03"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309109000"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "edbf0808b96987de0075fdca"
+  },
+  "name": "Souris sans fil 2,4 GHz + Bluetooth",
+  "slug": "souris-sans-fil-2-4-ghz-bluetooth-musw3-9b-01",
+  "sku": "MUSW3-9B-01",
+  "brand": "Gembird",
+  "description": "Bluetooth 5.1 + USB • Capteur Pixart 3212 • 800 / 1600 / 2400 DPI • 9 boutons",
+  "price": {
+   "$numberDecimal": "66.521"
+  },
+  "oldPrice": null,
+  "stock": 24,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "e934924b77a7d0676fd62938"
+   },
+   "name": "Souris & microphones",
+   "slug": "souris-microphones"
+  },
+  "images": [
+   "/uploads/737677a9-0a95-50b4-8e5c-3b6d6503738d.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "MUSW3-9B-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309136914"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "0a58c2a2f58368ae798dd1c7"
+  },
+  "name": "Souris optique sans fil ergonomique 6 boutons, noire",
+  "slug": "souris-optique-sans-fil-ergonomique-6-boutons-noire-musw-ergo-01",
+  "sku": "MUSW-ERGO-01",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "37.485"
+  },
+  "oldPrice": null,
+  "stock": 40,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "e934924b77a7d0676fd62938"
+   },
+   "name": "Souris & microphones",
+   "slug": "souris-microphones"
+  },
+  "images": [
+   "/uploads/ecc32791-47b4-5b33-a04c-e638c90ffe5e.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "MUSW-ERGO-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309104876"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "654c54d724513edae8b10a4f"
+  },
+  "name": "Bombe dépoussiérante à air sec, 400 ml",
+  "slug": "bombe-depoussierante-a-air-sec-400-ml-ck-cad-fl400-01",
+  "sku": "CK-CAD-FL400-01",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "10.591"
+  },
+  "oldPrice": null,
+  "stock": 24,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "66f570462d70504d91012fe5"
+   },
+   "name": "Entretien",
+   "slug": "entretien"
+  },
+  "images": [
+   "/uploads/54102a04-e2f1-5e88-9031-822b6ea0b0fb.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "CK-CAD-FL400-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309100588"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "511e7864f3bdc080e8477833"
+  },
+  "name": "Spray air sec dépoussiérant, 750 ml",
+  "slug": "spray-air-sec-depoussierant-750-ml-ck-cad-fl750-01",
+  "sku": "CK-CAD-FL750-01",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "16.541"
+  },
+  "oldPrice": null,
+  "stock": 60,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "66f570462d70504d91012fe5"
+   },
+   "name": "Entretien",
+   "slug": "entretien"
+  },
+  "images": [
+   "/uploads/a1bd9f22-5ae3-5f81-af63-5a5e967dc38f.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "CK-CAD-FL750-01"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309117173"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "6b93406bb790225a44aeaeca"
+  },
+  "name": "Kit de nettoyage 6 en 1",
+  "slug": "kit-de-nettoyage-6-en-1-ck-lcd-07",
+  "sku": "CK-LCD-07",
+  "brand": "Gembird",
+  "description": null,
+  "price": {
+   "$numberDecimal": "14.161"
+  },
+  "oldPrice": null,
+  "stock": 48,
+  "active": true,
+  "featured": false,
+  "soldCount": 0,
+  "category": {
+   "_id": {
+    "$oid": "66f570462d70504d91012fe5"
+   },
+   "name": "Entretien",
+   "slug": "entretien"
+  },
+  "images": [
+   "/uploads/591b45a6-59fd-5c77-9565-700330dc03c6.jpg"
+  ],
+  "specs": [
+   {
+    "name": "Référence",
+    "value": "CK-LCD-07"
+   },
+   {
+    "name": "EAN",
+    "value": "8716309129497"
+   }
+  ],
+  "rating": {
+   "average": {
+    "$numberDouble": "0.0"
+   },
+   "count": 0
+  },
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  },
+  "updatedAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ }
+]

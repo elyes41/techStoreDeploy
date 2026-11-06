@@ -1,0 +1,191 @@
+{
+  "categories": {
+    "bsonType": "object",
+    "required": ["name", "slug", "createdAt"],
+    "properties": {
+      "name": { "bsonType": "string", "minLength": 1, "maxLength": 120 },
+      "slug": { "bsonType": "string", "pattern": "^[a-z0-9-]+$" },
+      "createdAt": { "bsonType": "date" }
+    }
+  },
+  "products": {
+    "bsonType": "object",
+    "required": ["name", "slug", "price", "stock", "active", "featured", "soldCount", "rating", "images", "specs", "createdAt", "updatedAt"],
+    "properties": {
+      "name": { "bsonType": "string", "minLength": 1, "maxLength": 200 },
+      "slug": { "bsonType": "string", "pattern": "^[a-z0-9-]+$" },
+      "sku": { "bsonType": ["string", "null"], "maxLength": 64 },
+      "brand": { "bsonType": ["string", "null"], "maxLength": 100 },
+      "description": { "bsonType": ["string", "null"] },
+      "price": { "bsonType": ["decimal", "double", "int", "long"], "minimum": 0 },
+      "oldPrice": { "bsonType": ["decimal", "double", "int", "long", "null"], "minimum": 0 },
+      "stock": { "bsonType": ["int", "long"], "minimum": 0 },
+      "active": { "bsonType": "bool" },
+      "featured": { "bsonType": "bool" },
+      "soldCount": { "bsonType": ["int", "long"], "minimum": 0 },
+      "category": {
+        "bsonType": ["object", "null"],
+        "required": ["_id", "name", "slug"],
+        "properties": {
+          "_id": { "bsonType": "objectId" },
+          "name": { "bsonType": "string" },
+          "slug": { "bsonType": "string" }
+        }
+      },
+      "images": { "bsonType": "array", "maxItems": 10, "items": { "bsonType": "string" } },
+      "specs": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "object",
+          "required": ["name", "value"],
+          "properties": { "name": { "bsonType": "string" }, "value": { "bsonType": "string" } }
+        }
+      },
+      "rating": {
+        "bsonType": "object",
+        "required": ["average", "count"],
+        "properties": {
+          "average": { "bsonType": ["double", "int", "decimal"], "minimum": 0, "maximum": 5 },
+          "count": { "bsonType": ["int", "long"], "minimum": 0 }
+        }
+      },
+      "createdAt": { "bsonType": "date" },
+      "updatedAt": { "bsonType": "date" }
+    }
+  },
+  "orders": {
+    "bsonType": "object",
+    "required": ["reference", "customer", "delivery", "payment", "status", "items", "amounts", "history", "createdAt", "updatedAt"],
+    "properties": {
+      "reference": { "bsonType": "string", "pattern": "^CMD-[0-9]{8}-[A-Z0-9]{5}$" },
+      "status": { "enum": ["PENDING", "CONFIRMED", "SHIPPED", "DELIVERED", "CANCELLED"] },
+      "customer": {
+        "bsonType": "object",
+        "required": ["name", "phone"],
+        "properties": {
+          "name": { "bsonType": "string", "minLength": 1 },
+          "phone": { "bsonType": "string", "minLength": 8 },
+          "email": { "bsonType": ["string", "null"] }
+        }
+      },
+      "delivery": {
+        "bsonType": "object",
+        "required": ["governorate", "address"],
+        "properties": {
+          "governorate": { "bsonType": "string" },
+          "city": { "bsonType": ["string", "null"] },
+          "address": { "bsonType": "string", "minLength": 1 },
+          "note": { "bsonType": ["string", "null"] }
+        }
+      },
+      "payment": {
+        "bsonType": "object",
+        "required": ["method", "status"],
+        "properties": {
+          "method": { "enum": ["CASH_ON_DELIVERY", "CARD", "E_DINAR", "MOBILE_WALLET"] },
+          "status": { "enum": ["UNPAID", "PAID", "REFUNDED"] }
+        }
+      },
+      "items": {
+        "bsonType": "array",
+        "minItems": 1,
+        "items": {
+          "bsonType": "object",
+          "required": ["name", "unitPrice", "quantity", "lineTotal"],
+          "properties": {
+            "productId": { "bsonType": ["objectId", "null"] },
+            "name": { "bsonType": "string" },
+            "unitPrice": { "bsonType": ["decimal", "double", "int", "long"], "minimum": 0 },
+            "quantity": { "bsonType": ["int", "long"], "minimum": 1 },
+            "lineTotal": { "bsonType": ["decimal", "double", "int", "long"], "minimum": 0 }
+          }
+        }
+      },
+      "amounts": {
+        "bsonType": "object",
+        "required": ["subtotal", "discount", "shippingFee", "fiscalStamp", "total"],
+        "properties": {
+          "subtotal": { "bsonType": ["decimal", "double", "int", "long"], "minimum": 0 },
+          "discount": { "bsonType": ["decimal", "double", "int", "long"], "minimum": 0 },
+          "shippingFee": { "bsonType": ["decimal", "double", "int", "long"], "minimum": 0 },
+          "fiscalStamp": { "bsonType": ["decimal", "double", "int", "long"], "minimum": 0 },
+          "total": { "bsonType": ["decimal", "double", "int", "long"], "minimum": 0 }
+        }
+      },
+      "couponCode": { "bsonType": ["string", "null"] },
+      "shipment": {
+        "bsonType": ["object", "null"],
+        "properties": {
+          "carrier": { "bsonType": ["string", "null"] },
+          "trackingNumber": { "bsonType": ["string", "null"] },
+          "trackingUrl": { "bsonType": ["string", "null"], "pattern": "^https?://" },
+          "shippedAt": { "bsonType": ["date", "null"] },
+          "emailSentAt": { "bsonType": ["date", "null"] },
+          "emailError": { "bsonType": ["string", "null"] }
+        }
+      },
+      "history": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "object",
+          "required": ["status", "at"],
+          "properties": {
+            "status": { "enum": ["PENDING", "CONFIRMED", "SHIPPED", "DELIVERED", "CANCELLED"] },
+            "at": { "bsonType": "date" }
+          }
+        }
+      },
+      "createdAt": { "bsonType": "date" },
+      "updatedAt": { "bsonType": "date" }
+    }
+  },
+  "reviews": {
+    "bsonType": "object",
+    "required": ["productId", "authorName", "rating", "status", "verifiedPurchase", "createdAt"],
+    "properties": {
+      "productId": { "bsonType": "objectId" },
+      "authorName": { "bsonType": "string", "minLength": 1, "maxLength": 80 },
+      "rating": { "bsonType": ["int", "long"], "minimum": 1, "maximum": 5 },
+      "title": { "bsonType": ["string", "null"], "maxLength": 120 },
+      "comment": { "bsonType": ["string", "null"], "maxLength": 2000 },
+      "status": { "enum": ["PENDING", "APPROVED", "REJECTED"] },
+      "verifiedPurchase": { "bsonType": "bool" },
+      "createdAt": { "bsonType": "date" }
+    }
+  },
+  "coupons": {
+    "bsonType": "object",
+    "required": ["code", "type", "value", "minOrder", "usedCount", "active", "createdAt"],
+    "properties": {
+      "code": { "bsonType": "string", "pattern": "^[A-Z0-9_-]+$" },
+      "type": { "enum": ["PERCENT", "FIXED"] },
+      "value": { "bsonType": ["decimal", "double", "int", "long"], "exclusiveMinimum": true, "minimum": 0 },
+      "minOrder": { "bsonType": ["decimal", "double", "int", "long"], "minimum": 0 },
+      "maxUses": { "bsonType": ["int", "long", "null"], "minimum": 1 },
+      "usedCount": { "bsonType": ["int", "long"], "minimum": 0 },
+      "startsAt": { "bsonType": ["date", "null"] },
+      "endsAt": { "bsonType": ["date", "null"] },
+      "active": { "bsonType": "bool" },
+      "createdAt": { "bsonType": "date" }
+    }
+  },
+  "product_views": {
+    "bsonType": "object",
+    "required": ["productId", "visitorId", "viewedAt"],
+    "properties": {
+      "productId": { "bsonType": "objectId" },
+      "visitorId": { "bsonType": "string", "pattern": "^[A-Za-z0-9-]{8,64}$" },
+      "viewedAt": { "bsonType": "date" }
+    }
+  },
+  "admin_users": {
+    "bsonType": "object",
+    "required": ["email", "passwordHash", "createdAt"],
+    "properties": {
+      "email": { "bsonType": "string" },
+      "passwordHash": { "bsonType": "string", "minLength": 20 },
+      "fullName": { "bsonType": ["string", "null"] },
+      "createdAt": { "bsonType": "date" }
+    }
+  }
+}

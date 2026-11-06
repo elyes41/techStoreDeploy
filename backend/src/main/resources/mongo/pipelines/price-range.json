@@ -1,0 +1,4 @@
+[
+  { "$match": { "@param": "match" } },
+  { "$group": { "_id": null, "min": { "$min": "$price" }, "max": { "$max": "$price" } } }
+]

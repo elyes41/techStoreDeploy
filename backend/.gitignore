@@ -1,0 +1,8 @@
+target/
+uploads/
+*.iml
+.idea/
+.vscode/
+# Clés JWT : ne jamais versionner la clé privée
+src/main/resources/privateKey.pem
+src/main/resources/publicKey.pem

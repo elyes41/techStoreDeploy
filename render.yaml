@@ -1,0 +1,42 @@
+# Render Blueprint : backend Quarkus (Docker) sur l'offre gratuite.
+# Dashboard Render > New > Blueprint > choisir ce dépôt. Les valeurs « sync: false » sont demandées à la création.
+services:
+  - type: web
+    name: techstore-api
+    runtime: docker
+    plan: free
+    region: frankfurt            # le plus proche de la Tunisie ; non modifiable ensuite
+    rootDir: backend             # seuls les changements dans backend/ redéploient
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    healthCheckPath: /q/health/ready
+    autoDeploy: true
+    envVars:
+      - key: MONGODB_URI          # mongodb+srv://… (MongoDB Atlas)
+        sync: false
+      - key: MONGODB_DATABASE
+        value: techstore
+      - key: STORAGE              # images téléversées dans MongoDB (GridFS) : pas de disque persistant en Free
+        value: mongo
+      - key: DEMO_DATA
+        value: "false"
+      - key: JWT_PRIVATE_KEY      # fichiers ajoutés dans Environment > Secret Files
+        value: file:/etc/secrets/privateKey.pem
+      - key: JWT_PUBLIC_KEY
+        value: file:/etc/secrets/publicKey.pem
+      - key: JWT_ISSUER           # https://<votre-site>.netlify.app (ou votre domaine)
+        sync: false
+      - key: PUBLIC_URL           # même valeur : sert aux liens des e-mails
+        sync: false
+      - key: ADMIN_EMAIL
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: MAIL_FROM            # ex. TechStore <no-reply@votredomaine> (expéditeur validé chez Brevo)
+        sync: false
+      - key: BREVO_API_KEY        # SMTP bloqué sur Render Free : envoi par l'API Brevo
+        sync: false
+      - key: WHATSAPP_NUMBER
+        sync: false
+      - key: JAVA_TOOL_OPTIONS    # 512 Mo de RAM, 0,1 CPU
+        value: "-XX:MaxRAMPercentage=70 -XX:+UseSerialGC -Xss512k"

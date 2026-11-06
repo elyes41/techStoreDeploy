@@ -1,0 +1,36 @@
+{
+  "categories": [
+    { "keys": { "slug": 1 }, "options": { "name": "slug_unique", "unique": true } }
+  ],
+  "products": [
+    { "keys": { "slug": 1 }, "options": { "name": "slug_unique", "unique": true } },
+    { "keys": { "sku": 1 }, "options": { "name": "sku_unique", "unique": true, "partialFilterExpression": { "sku": { "$type": "string" } } } },
+    { "keys": { "active": 1, "category.slug": 1, "price": 1 }, "options": { "name": "catalog_by_category" } },
+    { "keys": { "active": 1, "brand": 1 }, "options": { "name": "catalog_by_brand" } },
+    { "keys": { "category._id": 1 }, "options": { "name": "category_ref" } },
+    { "keys": { "active": 1, "featured": -1, "createdAt": -1 }, "options": { "name": "catalog_popular" } },
+    { "keys": { "soldCount": -1 }, "options": { "name": "best_sellers" } },
+    { "keys": { "active": 1, "stock": 1 }, "options": { "name": "stock_levels" } }
+  ],
+  "orders": [
+    { "keys": { "reference": 1 }, "options": { "name": "reference_unique", "unique": true } },
+    { "keys": { "status": 1, "createdAt": -1 }, "options": { "name": "by_status_date" } },
+    { "keys": { "createdAt": -1 }, "options": { "name": "by_date" } },
+    { "keys": { "items.productId": 1 }, "options": { "name": "by_product" } }
+  ],
+  "reviews": [
+    { "keys": { "productId": 1, "status": 1, "createdAt": -1 }, "options": { "name": "by_product_status" } },
+    { "keys": { "status": 1, "createdAt": -1 }, "options": { "name": "moderation_queue" } }
+  ],
+  "coupons": [
+    { "keys": { "code": 1 }, "options": { "name": "code_unique", "unique": true } }
+  ],
+  "product_views": [
+    { "keys": { "productId": 1, "viewedAt": -1 }, "options": { "name": "by_product_date" } },
+    { "keys": { "visitorId": 1, "viewedAt": -1 }, "options": { "name": "by_visitor_date" } },
+    { "keys": { "viewedAt": 1 }, "options": { "name": "ttl_90_days", "expireAfterSeconds": 7776000 } }
+  ],
+  "admin_users": [
+    { "keys": { "email": 1 }, "options": { "name": "email_unique", "unique": true } }
+  ]
+}

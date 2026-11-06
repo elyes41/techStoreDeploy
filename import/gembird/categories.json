@@ -1,0 +1,72 @@
+[
+ {
+  "_id": {
+   "$oid": "07f90fb6e96836a8ecf5b436"
+  },
+  "name": "Adaptateurs & convertisseurs",
+  "slug": "adaptateurs-convertisseurs",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "1866c09edec764e5ef8e406b"
+  },
+  "name": "Câbles vidéo",
+  "slug": "cables-video",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "963a952ee5f3bf14854c9031"
+  },
+  "name": "Hubs USB, cartes & acquisition",
+  "slug": "hubs-usb-cartes-acquisition",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "76b6fdff8beb124491be427b"
+  },
+  "name": "Supports TV, meubles & projecteurs",
+  "slug": "supports-tv-meubles-projecteurs",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "07e73e79fdc09ee14bac56c3"
+  },
+  "name": "Bras & supports d'écran, PC portable",
+  "slug": "bras-supports-d-ecran-pc-portable",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "e934924b77a7d0676fd62938"
+  },
+  "name": "Souris & microphones",
+  "slug": "souris-microphones",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ },
+ {
+  "_id": {
+   "$oid": "66f570462d70504d91012fe5"
+  },
+  "name": "Entretien",
+  "slug": "entretien",
+  "createdAt": {
+   "$date": "2026-11-06T00:00:00Z"
+  }
+ }
+]

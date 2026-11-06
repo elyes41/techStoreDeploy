@@ -1,0 +1,53 @@
+# Netlify : héberge le frontend Angular et relaie /api et /uploads vers le backend Quarkus sur Render.
+# ⚠ Remplacez « techstore-api.onrender.com » par l'adresse réelle de votre service Render.
+
+[build]
+  base    = "frontend"
+  command = "npm ci && npx ng build"
+  publish = "dist/frontend/browser"
+  # ne reconstruit (et ne consomme de crédits) que si frontend/ a changé
+  ignore  = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- ."
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# API -> Render (même domaine pour le navigateur : pas de CORS, le jeton admin reste sur le site)
+[[redirects]]
+  from   = "/api/*"
+  to     = "https://techstore-api.onrender.com/api/:splat"
+  status = 200
+
+# Photos : celles des catalogues sont servies directement par Netlify (frontend/public/uploads) ;
+# une photo absente de ce dossier (ajoutée depuis l'admin, stockée dans MongoDB) est demandée au backend.
+[[redirects]]
+  from   = "/uploads/*"
+  to     = "https://techstore-api.onrender.com/uploads/:splat"
+  status = 200
+
+# Routes Angular (catalogue, fiche produit, admin…)
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/uploads/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Strict-Transport-Security = "max-age=31536000"

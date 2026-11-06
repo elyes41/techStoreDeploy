@@ -1,0 +1,21 @@
+Bonne nouvelle {m.customerName}, votre colis est en route !
+
+Votre commande {m.reference} vient d'être remise au livreur.
+Livraison prévue : {m.deliveryWindow}.
+{#if m.carrier}
+Transporteur : {m.carrier}{/if}{#if m.trackingNumber}
+N° de suivi : {m.trackingNumber}{/if}{#if m.trackingUrl}
+Suivre mon colis : {m.trackingUrl}{/if}
+
+Contenu du colis
+{#for line in m.items}- {line.quantity} x {line.name} : {line.total}
+{/for}
+Total : {m.total}
+{m.paymentInfo}
+
+Adresse de livraison : {m.address}
+Le livreur vous appellera avant de passer.
+
+Voir ma commande : {m.orderUrl}
+
+{m.shopName} – {m.shopUrl}

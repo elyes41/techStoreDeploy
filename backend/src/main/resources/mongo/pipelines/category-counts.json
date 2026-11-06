@@ -1,0 +1,4 @@
+[
+  { "$match": { "@param": "match" } },
+  { "$group": { "_id": "$category._id", "count": { "$sum": 1 } } }
+]

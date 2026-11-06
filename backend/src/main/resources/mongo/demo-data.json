@@ -1,0 +1,57 @@
+{
+  "categories": [
+    { "name": "Smartphones", "slug": "smartphones" },
+    { "name": "Tablettes", "slug": "tablettes" },
+    { "name": "PC portables", "slug": "pc-portables" },
+    { "name": "Composants PC", "slug": "composants-pc" },
+    { "name": "Accessoires", "slug": "accessoires" }
+  ],
+  "products": [
+    { "sku": "SM-001", "name": "Smartphone 6,7\" 256 Go 5G", "brand": "Samsung", "category": "smartphones",
+      "description": "Grand écran, 8 Go de RAM et batterie 5000 mAh pour tenir toute la journée.",
+      "price": "1899.000", "oldPrice": "2099.000", "stock": 14, "featured": true,
+      "specs": { "RAM": "8 Go", "Stockage": "256 Go", "Batterie": "5000 mAh", "Réseau": "5G" } },
+    { "sku": "SM-002", "name": "Smartphone 6,1\" 128 Go 5G", "brand": "Apple", "category": "smartphones",
+      "description": "Format compact, appareil photo double capteur.",
+      "price": "3290.000", "stock": 6, "featured": true, "specs": { "Stockage": "128 Go", "Réseau": "5G" } },
+    { "sku": "SM-003", "name": "Smartphone 6,5\" 128 Go 4G", "brand": "Xiaomi", "category": "smartphones",
+      "description": "Le bon rapport qualité-prix : grand écran et grosse batterie.",
+      "price": "649.000", "oldPrice": "699.000", "stock": 32, "specs": { "Batterie": "5000 mAh", "Réseau": "4G" } },
+    { "sku": "SM-004", "name": "Smartphone 6,6\" 256 Go 5G", "brand": "Xiaomi", "category": "smartphones",
+      "description": "Charge rapide 67 W et écran AMOLED 120 Hz.",
+      "price": "1090.000", "stock": 3, "specs": { "RAM": "8 Go", "Stockage": "256 Go", "Réseau": "5G" } },
+    { "sku": "TB-001", "name": "Tablette 11\" 128 Go Wi-Fi", "brand": "Samsung", "category": "tablettes",
+      "description": "Idéale pour le travail et le divertissement.", "price": "1150.000", "stock": 9, "featured": true },
+    { "sku": "TB-002", "name": "Tablette 10,2\" 64 Go Wi-Fi", "brand": "Lenovo", "category": "tablettes",
+      "description": "Tablette familiale, contrôle parental intégré.", "price": "549.000", "oldPrice": "599.000", "stock": 0 },
+    { "sku": "PC-001", "name": "PC portable 15,6\" i7 16 Go / 512 Go SSD", "brand": "Lenovo", "category": "pc-portables",
+      "description": "Processeur Intel Core i7, écran Full HD, idéal pour le développement.",
+      "price": "2790.000", "stock": 7, "featured": true, "specs": { "Processeur": "Intel Core i7", "RAM": "16 Go" } },
+    { "sku": "PC-002", "name": "PC portable 14\" Ryzen 5 8 Go / 512 Go SSD", "brand": "HP", "category": "pc-portables",
+      "description": "Léger et autonome, parfait pour les étudiants.", "price": "1890.000", "oldPrice": "2049.000", "stock": 11,
+      "specs": { "RAM": "8 Go" } },
+    { "sku": "PC-003", "name": "PC gamer 15,6\" RTX 4060 16 Go", "brand": "ASUS", "category": "pc-portables",
+      "description": "Écran 144 Hz et carte graphique RTX 4060.", "price": "4290.000", "stock": 2, "featured": true,
+      "specs": { "RAM": "16 Go" } },
+    { "sku": "CP-001", "name": "SSD NVMe 1 To", "brand": "Samsung", "category": "composants-pc",
+      "description": "Jusqu'à 7000 Mo/s en lecture.", "price": "329.000", "oldPrice": "369.000", "stock": 25 },
+    { "sku": "CP-002", "name": "Barrette RAM DDR5 16 Go", "brand": "Kingston", "category": "composants-pc",
+      "description": "DDR5 5600 MHz.", "price": "219.000", "stock": 40 },
+    { "sku": "AC-001", "name": "Écouteurs sans fil à réduction de bruit", "brand": "Sony", "category": "accessoires",
+      "description": "Réduction de bruit active, 30 h d'autonomie avec le boîtier.", "price": "189.000", "oldPrice": "229.000",
+      "stock": 50, "featured": true },
+    { "sku": "AC-002", "name": "Chargeur rapide USB-C 45 W", "brand": "Anker", "category": "accessoires",
+      "description": "Compatible smartphones, tablettes et PC portables USB-C.", "price": "79.000", "stock": 80 }
+  ],
+  "reviews": [
+    { "sku": "SM-001", "author": "Amine B.", "rating": 5, "title": "Excellent rapport qualité-prix", "comment": "Écran superbe et la batterie tient facilement deux jours.", "verified": true },
+    { "sku": "SM-001", "author": "Sarra T.", "rating": 4, "title": "Très bon téléphone", "comment": "Rapide et fluide, un peu lourd en main.", "verified": true },
+    { "sku": "SM-003", "author": "Youssef G.", "rating": 4, "title": "Parfait pour le prix", "comment": "Batterie énorme, photo correcte de jour.", "verified": false },
+    { "sku": "PC-001", "author": "Ines M.", "rating": 5, "title": "Idéal pour coder", "comment": "Clavier agréable, compile vite, livré en 24 h à Tunis.", "verified": true },
+    { "sku": "AC-001", "author": "Mehdi J.", "rating": 5, "title": "Réduction de bruit bluffante", "comment": "Parfait dans le métro, autonomie conforme.", "verified": true },
+    { "sku": "AC-001", "author": "Nour K.", "rating": 3, "title": "Bien mais boîtier fragile", "comment": "Le son est très bon, le boîtier se raye vite.", "verified": false }
+  ],
+  "coupons": [
+    { "code": "BIENVENUE10", "type": "PERCENT", "value": "10", "minOrder": "100" }
+  ]
+}

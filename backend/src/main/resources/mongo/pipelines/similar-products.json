@@ -1,0 +1,21 @@
+[
+  { "$match": {
+      "_id": { "$ne": { "@param": "productId" } },
+      "active": true,
+      "$or": [
+        { "category._id": { "$in": { "@param": "categoryIds" } } },
+        { "brand": { "$in": { "@param": "brands" } } }
+      ]
+  } },
+  { "$addFields": { "_score": { "$add": [
+      { "$cond": [ { "$in": [ { "$ifNull": ["$category._id", "none"] }, { "@param": "categoryIds" } ] }, 3, 0 ] },
+      { "$cond": [ { "$in": [ { "$ifNull": ["$brand", "none"] }, { "@param": "brands" } ] }, 2, 0 ] },
+      { "$cond": [ { "$and": [ { "$gte": ["$price", { "@param": "minPrice" }] }, { "$lte": ["$price", { "@param": "maxPrice" }] } ] }, 2, 0 ] },
+      { "$cond": [ { "$gt": ["$stock", 0] }, 1, 0 ] },
+      { "$divide": [ { "$min": ["$soldCount", 50] }, 25 ] },
+      { "$divide": [ { "$ifNull": ["$rating.average", 0] }, 5 ] }
+  ] } } },
+  { "$sort": { "_score": -1, "_id": 1 } },
+  { "$limit": { "@param": "limit" } },
+  { "$unset": "_score" }
+]

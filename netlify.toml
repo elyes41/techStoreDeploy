@@ -14,14 +14,14 @@
 # API -> Render (même domaine pour le navigateur : pas de CORS, le jeton admin reste sur le site)
 [[redirects]]
   from   = "/api/*"
-  to     = "https://techstore-api.onrender.com/api/:splat"
+  to     = "https://techstore-api-5bvb.onrender.com/api/:splat"
   status = 200
 
 # Photos : celles des catalogues sont servies directement par Netlify (frontend/public/uploads) ;
 # une photo absente de ce dossier (ajoutée depuis l'admin, stockée dans MongoDB) est demandée au backend.
 [[redirects]]
   from   = "/uploads/*"
-  to     = "https://techstore-api.onrender.com/uploads/:splat"
+  to     = "https://techstore-api-5bvb.onrender.com/uploads/:splat"
   status = 200
 
 # Routes Angular (catalogue, fiche produit, admin…)

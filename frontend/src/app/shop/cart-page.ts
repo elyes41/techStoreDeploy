@@ -169,13 +169,14 @@ const PAYMENTS: { value: PaymentMethod; desc: string }[] = [
     .line-info { flex: 1 1 180px; display: flex; flex-direction: column; gap: 2px; }
     .line-name { font-weight: 600; color: var(--ink); text-decoration: none; }
     .line-total { min-width: 100px; text-align: right; font-family: var(--font-display); }
-    .qty { display: flex; align-items: center; border: 1px solid var(--line-2); border-radius: 10px; }
+    .qty { display: flex; align-items: center; border: 1px solid var(--line-2); border-radius: 999px; }
     .qty span { min-width: 28px; text-align: center; font-weight: 600; }
     .pay-list { display: flex; flex-direction: column; gap: 10px; }
-    .pay { display: flex; gap: 14px; align-items: center; padding: 14px 16px; border: 1px solid var(--line-2); border-radius: 12px; cursor: pointer; }
+    .pay { display: flex; gap: 14px; align-items: center; padding: 14px 16px; border: 1px solid var(--line-2); border-radius: var(--radius-sm); cursor: pointer; }
     .pay.on { border: 2px solid var(--blue); background: var(--blue-soft); }
     .pay input { width: 18px; height: 18px; accent-color: var(--blue); }
-    .summary { flex: 1 1 300px; display: flex; flex-direction: column; gap: 12px; position: sticky; top: 140px; }
+    .summary { flex: 1 1 300px; display: flex; flex-direction: column; gap: 12px; position: sticky; top: 170px; }
+    @media (max-width: 860px) { .summary { position: static; } .line-total { min-width: 0; margin-left: auto; } }
     .sum-row { display: flex; justify-content: space-between; font-size: 15px; }
     .total { border-top: 1px solid var(--line); padding-top: 12px; font-weight: 600; align-items: baseline; }
     .promo { color: var(--green); font-weight: 500; }
@@ -184,7 +185,7 @@ const PAYMENTS: { value: PaymentMethod; desc: string }[] = [
     .coupon .input { min-width: 0; text-transform: uppercase; }
     .ship p { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: 15px; margin-bottom: 10px; }
     .ship .ok { color: var(--green); font-weight: 600; }
-    .ship-bar { height: 8px; background: #f1f5f9; border-radius: 999px; overflow: hidden; }
+    .ship-bar { height: 8px; background: var(--surface-2); border-radius: 999px; overflow: hidden; }
     .ship-bar span { display: block; height: 100%; background: var(--green); border-radius: 999px; transition: width .3s; }
   `,
 })

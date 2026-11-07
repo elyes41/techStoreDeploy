@@ -46,7 +46,7 @@ const DAY_FMT = new Intl.DateTimeFormat('fr-FR', { weekday: 'long', day: 'numeri
 
           <section class="main">
             <div class="gallery">
-              <div class="main-img">
+              <div class="main-img photo-stage">
                 @if (p.images.length) {
                   <img [src]="p.images[activeImage()]" [alt]="p.name" />
                 } @else {
@@ -71,8 +71,8 @@ const DAY_FMT = new Intl.DateTimeFormat('fr-FR', { weekday: 'long', day: 'numeri
 
             <div class="info">
               <div class="stack" style="gap: 8px">
-                <span class="muted small upper">{{ p.brand }} @if (p.sku) { · Réf. {{ p.sku }} }</span>
-                <h1>{{ p.name }}</h1>
+                <span class="meta"><strong>{{ p.brand }}</strong> @if (p.sku) { <span class="muted">Réf. {{ p.sku }}</span> }</span>
+                <h1 class="pname">{{ p.name }}</h1>
                 <div class="row" style="gap: 12px">
                   @if (p.ratingCount > 0) {
                     <a href="#avis" class="rating-link"><app-stars [value]="p.ratingAvg" [size]="16" /> {{ p.ratingCount }} avis</a>
@@ -214,25 +214,25 @@ const DAY_FMT = new Intl.DateTimeFormat('fr-FR', { weekday: 'long', day: 'numeri
     .crumbs { font-size: 14px; color: var(--muted); display: flex; gap: 8px; flex-wrap: wrap; padding: 24px 0 8px; }
     .crumbs a { text-decoration: none; }
     .main { display: flex; flex-wrap: wrap; gap: 40px; padding: 16px 0 32px; align-items: flex-start; }
-    .gallery { flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 12px; position: sticky; top: 140px; }
+    .gallery { flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 12px; position: sticky; top: 170px; }
     @media (max-width: 900px) { .gallery { position: static; } }
-    .main-img { position: relative; aspect-ratio: 1; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; overflow: hidden; }
-    .main-img img { width: 100%; height: 100%; object-fit: contain; padding: 24px; }
+    .main-img { position: relative; aspect-ratio: 1; border: 1px solid var(--line); border-radius: 28px; overflow: hidden; }
+    .main-img img { width: 100%; height: 100%; object-fit: contain; padding: 8%; }
     .flags { position: absolute; top: 16px; left: 16px; display: flex; flex-direction: column; gap: 6px; align-items: flex-start; }
-    .badge-best { background: #f59e0b; color: #1c1917; border-radius: 6px; }
-    .thumbs { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; }
-    .thumbs button { aspect-ratio: 1; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 6px; cursor: pointer; }
+        .thumbs { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; }
+    .thumbs button { aspect-ratio: 1; background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 6px; cursor: pointer; }
     .thumbs button.on { border: 2px solid var(--blue); }
     .thumbs img { width: 100%; height: 100%; object-fit: contain; }
     .info { flex: 1 1 380px; min-width: 0; display: flex; flex-direction: column; gap: 18px; }
-    .upper { text-transform: uppercase; letter-spacing: .05em; }
+    .meta { display: flex; gap: 12px; font-size: 14px; color: var(--blue); }
+    .pname { font-size: clamp(22px, 3vw, 32px); line-height: 1.2; }
     .rating-link { display: inline-flex; align-items: center; gap: 8px; text-decoration: none; font-size: 14px; }
-    .big { font-size: 36px; }
+    .big { font-size: clamp(28px, 4vw, 36px); }
     .save { background: var(--red-soft); color: var(--promo); font-weight: 600; font-size: 13px; padding: 3px 10px; border-radius: 999px; }
     .proof { display: flex; gap: 8px; align-items: center; font-size: 14px; color: var(--promo); font-weight: 500; }
     .low-stock { color: var(--promo); font-size: 14px; font-weight: 600; }
     .delivery { display: flex; gap: 8px; align-items: center; font-size: 14px; color: var(--ink-2); flex-wrap: wrap; }
-    .qty { display: flex; align-items: center; border: 1px solid var(--line-2); border-radius: 10px; background: var(--surface); }
+    .qty { display: flex; align-items: center; border: 1px solid var(--line-2); border-radius: 999px; background: var(--surface); }
     .qty span { min-width: 32px; text-align: center; font-weight: 600; }
     .grow { flex: 1 1 200px; }
     .btn-wa { background: #128c3e; color: #fff; }
@@ -251,7 +251,7 @@ const DAY_FMT = new Intl.DateTimeFormat('fr-FR', { weekday: 'long', day: 'numeri
     .fbt-name { font-size: 14px; line-height: 1.3; }
     .plus { font-size: 24px; color: var(--muted); font-weight: 300; }
     .fbt-total { flex: 1 1 220px; display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
-    .details { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; margin-bottom: 32px; }
+    .details { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr)); gap: 20px; margin-bottom: 32px; }
     .desc { white-space: pre-line; color: var(--ink-2); }
     .specs { width: 100%; border-collapse: collapse; font-size: 15px; }
     .specs th { text-align: left; color: var(--muted); font-weight: 500; padding: 10px 16px 10px 0; width: 40%; }

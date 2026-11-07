@@ -127,10 +127,10 @@ type SpecGroup = FormGroup<{ key: FormControl<string>; value: FormControl<string
     .col-side { flex: 1 1 280px; display: flex; flex-direction: column; gap: 20px; position: sticky; top: 20px; }
     .sec { font-size: 18px; }
     .images { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 12px; }
-    .img-item { margin: 0; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: #f8fafc; display: flex; flex-direction: column; }
+    .img-item { margin: 0; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: #fff; display: flex; flex-direction: column; }
     .img-item.main { border: 2px solid var(--blue); }
     .img-item img { aspect-ratio: 1; object-fit: contain; width: 100%; padding: 8px; }
-    .img-actions { display: flex; justify-content: space-between; align-items: center; padding: 4px; border-top: 1px solid var(--line); background: #fff; }
+    .img-actions { display: flex; justify-content: space-between; align-items: center; padding: 4px; border-top: 1px solid var(--line); background: var(--surface); }
     .upload { aspect-ratio: 1; border: 2px dashed var(--line-2); border-radius: 12px; display: flex; flex-direction: column; gap: 8px;
       align-items: center; justify-content: center; color: var(--muted); cursor: pointer; font-size: 14px; text-align: center; padding: 8px; }
     .upload:hover, .upload:focus-within { border-color: var(--blue); color: var(--blue); }

@@ -103,8 +103,8 @@ import { Stars } from '../shared/stars';
     .avg strong { font-family: var(--font-display); font-size: 44px; line-height: 1; }
     .dist { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
     .dist li { display: grid; grid-template-columns: 64px 1fr 40px; gap: 10px; align-items: center; }
-    .bar { height: 10px; background: #f1f5f9; border-radius: 999px; overflow: hidden; }
-    .bar span { display: block; height: 100%; background: #f59e0b; border-radius: 999px; }
+    .bar { height: 10px; background: var(--surface-2); border-radius: 999px; overflow: hidden; }
+    .bar span { display: block; height: 100%; background: #f5a524; border-radius: 999px; }
     .num { text-align: right; }
     .list { flex: 999 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 16px; }
     .review { display: flex; flex-direction: column; gap: 6px; padding-bottom: 16px; border-bottom: 1px solid var(--line); }

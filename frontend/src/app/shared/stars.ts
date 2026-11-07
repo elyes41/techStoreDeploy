@@ -10,8 +10,8 @@ import { ChangeDetectionStrategy, Component, computed, input } from '@angular/co
         <svg [attr.width]="size()" [attr.height]="size()" viewBox="0 0 24 24" aria-hidden="true">
           <defs>
             <linearGradient [attr.id]="gid + $index">
-              <stop [attr.offset]="f + '%'" stop-color="#f59e0b" />
-              <stop [attr.offset]="f + '%'" stop-color="#cbd5e1" />
+              <stop [attr.offset]="f + '%'" stop-color="#f5a524" />
+              <stop [attr.offset]="f + '%'" style="stop-color: var(--line-2)" />
             </linearGradient>
           </defs>
           <path [attr.fill]="'url(#' + gid + $index + ')'"

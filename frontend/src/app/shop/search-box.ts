@@ -20,9 +20,9 @@ const EMPTY: SearchSuggestions = { products: [], categories: [], brands: [] };
       <label for="site-search" class="sr-only">Rechercher un produit</label>
       <input id="site-search" type="search" name="q" autocomplete="off" [(ngModel)]="query"
              (ngModelChange)="typed$.next($event)" (focus)="open.set(true)" (keydown.escape)="open.set(false)"
-             placeholder="Rechercher un smartphone, un PC, un accessoire…"
+             placeholder="Rechercher un produit…"
              role="combobox" aria-controls="search-panel" [attr.aria-expanded]="showPanel()" />
-      <button type="submit" aria-label="Rechercher"><app-icon name="search" /></button>
+      <button type="submit" aria-label="Rechercher"><app-icon name="search" [size]="18" /></button>
     </form>
 
     @if (showPanel()) {
@@ -60,21 +60,24 @@ const EMPTY: SearchSuggestions = { products: [], categories: [], brands: [] };
     }
   `,
   styles: `
-    :host { position: relative; flex: 1 1 320px; display: block; }
-    .search { display: flex; background: #fff; border-radius: 10px; overflow: hidden; }
-    .search input { flex: 1; min-width: 0; border: 0; padding: 12px 14px; font: 400 15px var(--font-body); }
+    :host { position: relative; flex: 1 1 320px; display: block; min-width: 0; }
+    .search { display: flex; align-items: center; background: var(--surface-2); border: 1px solid transparent; border-radius: 999px;
+      overflow: hidden; transition: border-color .15s, box-shadow .15s, background .15s; }
+    .search:focus-within { background: var(--surface); border-color: var(--blue); box-shadow: 0 0 0 4px color-mix(in srgb, var(--blue) 16%, transparent); }
+    .search input { flex: 1; min-width: 0; border: 0; background: transparent; color: var(--ink); padding: 0 18px; min-height: 46px; font: 400 16px var(--font-body); }
+    .search input::placeholder { color: var(--muted); }
     .search input:focus { outline: none; }
-    .search:focus-within { outline: 2px solid #60a5fa; }
-    .search button { border: 0; background: var(--blue); color: #fff; padding: 0 16px; min-height: 44px; cursor: pointer; }
-    .panel { position: absolute; top: calc(100% + 6px); left: 0; right: 0; z-index: 40; background: #fff; color: var(--ink);
-      border-radius: 12px; box-shadow: 0 16px 40px rgba(15,23,42,.25); padding: 8px; max-height: 70vh; overflow: auto; }
-    .group { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); padding: 8px 8px 4px; }
-    .item { display: flex; gap: 12px; align-items: center; padding: 8px; border-radius: 8px; color: var(--ink); text-decoration: none; font-size: 14px; }
+    .search button { border: 0; background: var(--blue); color: var(--on-blue); width: 38px; height: 38px; margin-right: 4px; border-radius: 999px;
+      cursor: pointer; display: inline-flex; align-items: center; justify-content: center; flex: none; }
+    .panel { position: absolute; top: calc(100% + 8px); left: 0; right: 0; z-index: 50; background: var(--surface); color: var(--ink);
+      border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow-lift); padding: 8px; max-height: 70vh; overflow: auto; }
+    .group { font-size: 13px; font-weight: 600; color: var(--muted); padding: 8px 8px 4px; }
+    .item { display: flex; gap: 12px; align-items: center; padding: 8px; border-radius: 12px; color: var(--ink); text-decoration: none; font-size: 14px; }
     .item:hover, .item:focus { background: var(--blue-soft); color: var(--ink); }
     .grow { flex: 1; min-width: 0; }
-    .thumb { width: 40px; height: 40px; }
+    .thumb { width: 44px; height: 44px; }
     .chips { display: flex; flex-wrap: wrap; gap: 6px; padding: 4px 8px 8px; }
-    .chip { background: #f1f5f9; color: var(--ink); text-decoration: none; padding: 6px 12px; border-radius: 999px; font-size: 13px; }
+    .chip { background: var(--surface-2); color: var(--ink); text-decoration: none; padding: 6px 12px; border-radius: 999px; font-size: 13px; }
     .chip:hover { background: var(--blue-tint); color: var(--blue-dark); }
     .none { padding: 16px 8px; color: var(--muted); font-size: 14px; }
     .all { width: 100%; text-align: left; border: 0; border-top: 1px solid var(--line); background: none; padding: 12px 8px 6px;

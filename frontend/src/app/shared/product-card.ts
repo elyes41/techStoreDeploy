@@ -17,7 +17,7 @@ export const BEST_SELLER_MIN = 10;
   template: `
     @let p = product();
     <article class="pc">
-      <div class="pc-media">
+      <div class="pc-media photo-stage">
         <a [routerLink]="['/produit', p.slug]" [attr.aria-label]="p.name" class="pc-img">
           @if (p.image) {
             <img [src]="p.image" [alt]="p.name" loading="lazy" />
@@ -45,15 +45,17 @@ export const BEST_SELLER_MIN = 10;
           @if (p.oldPrice && off()) { <span class="old-price">{{ p.oldPrice | dt }}</span> }
         </div>
         @if (p.stock === 0) {
-          <span class="out-stock">● Rupture de stock</span>
+          <span class="stock out-stock">Rupture de stock</span>
         } @else if (p.stock <= 5) {
-          <span class="low-stock">● Plus que {{ p.stock }} en stock</span>
+          <span class="stock low-stock">Plus que {{ p.stock }} en stock</span>
         } @else {
-          <span class="in-stock">● En stock</span>
+          <span class="stock in-stock">En stock</span>
         }
         <div class="pc-actions">
-          <button type="button" class="btn btn-dark btn-sm grow" [disabled]="p.stock === 0" (click)="add()">
-            {{ added() ? 'Ajouté ✓' : 'Ajouter au panier' }}
+          <button type="button" class="btn btn-dark btn-sm grow add" [class.done]="added()" [disabled]="p.stock === 0" (click)="add()"
+                  [attr.aria-label]="(added() ? 'Ajouté au panier : ' : 'Ajouter au panier : ') + p.name">
+            <app-icon [name]="added() ? 'check' : 'cart'" [size]="16" />
+            <span class="add-label">{{ added() ? 'Ajouté' : 'Ajouter' }}</span>
           </button>
           <button type="button" class="btn btn-outline btn-sm cmp" [class.on]="compared()" (click)="toggleCompare()"
                   [attr.aria-pressed]="compared()" [attr.aria-label]="'Comparer ' + p.name" [title]="compareHint()">
@@ -64,28 +66,45 @@ export const BEST_SELLER_MIN = 10;
     </article>
   `,
   styles: `
-    .pc { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; overflow: hidden;
-      display: flex; flex-direction: column; height: 100%; transition: box-shadow .15s; }
-    .pc:hover { box-shadow: 0 8px 24px rgba(15,23,42,.08); }
-    .pc-media { position: relative; aspect-ratio: 4 / 3; background: #f1f5f9; }
+    :host { display: block; container-type: inline-size; }
+    .pc { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+      display: flex; flex-direction: column; height: 100%; transition: box-shadow .2s, transform .2s, border-color .2s; }
+    .pc:hover { box-shadow: var(--shadow-lift); border-color: transparent; }
+    .pc-media { position: relative; aspect-ratio: 1; margin: 6px 6px 0; border-radius: calc(var(--radius) - 6px); overflow: hidden; }
     .pc-img { display: block; width: 100%; height: 100%; }
-    .pc-img img { width: 100%; height: 100%; object-fit: contain; padding: 12px; }
-    .pc-flags { position: absolute; top: 12px; left: 12px; display: flex; flex-direction: column; gap: 6px; align-items: flex-start; }
-    .badge-best { background: #f59e0b; color: #1c1917; border-radius: 6px; }
-    .pc-wish { position: absolute; top: 8px; right: 8px; width: 40px; height: 40px; border-radius: 50%; border: 0;
-      background: rgba(255,255,255,.92); color: var(--ink-2); display: flex; align-items: center; justify-content: center;
-      cursor: pointer; box-shadow: 0 1px 4px rgba(15,23,42,.12); }
-    .pc-wish.on { color: #e11d48; }
-    .pc-body { padding: 16px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
-    .pc-brand { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
-    .pc-name { font-weight: 600; color: var(--ink); text-decoration: none; line-height: 1.35; }
+    .pc-img img { width: 100%; height: 100%; object-fit: contain; padding: 7%; transition: transform .35s ease; }
+    .pc:hover .pc-img img { transform: scale(1.05); }
+    .pc-flags { position: absolute; top: 10px; left: 10px; display: flex; flex-direction: column; gap: 6px; align-items: flex-start; }
+    .pc-wish { position: absolute; top: 8px; right: 8px; width: 38px; height: 38px; border-radius: 50%; border: 0;
+      background: rgba(255,255,255,.9); color: #2b3658; display: flex; align-items: center; justify-content: center;
+      cursor: pointer; box-shadow: 0 1px 6px rgba(12,22,51,.14); transition: transform .15s; }
+    .pc-wish:active { transform: scale(.9); }
+    .pc-wish.on { color: var(--bloom); }
+    .pc-body { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 5px; flex: 1; }
+    .pc-brand { font-size: 12px; font-weight: 600; color: var(--blue); }
+    .pc-name { font-weight: 500; color: var(--ink); text-decoration: none; line-height: 1.35; font-size: 15px;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
     .pc-name:hover { color: var(--blue); }
-    .pc-price { display: flex; gap: 8px; align-items: baseline; margin-top: auto; flex-wrap: wrap; }
-    .low-stock { color: var(--promo); font-size: 13px; font-weight: 600; }
+    .pc-price { display: flex; gap: 8px; align-items: baseline; margin-top: auto; padding-top: 4px; flex-wrap: wrap; }
+    .stock { font-size: 12px; font-weight: 500; display: inline-flex; align-items: center; gap: 6px; }
+    .stock::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+    .low-stock { color: var(--bloom); font-weight: 600; }
     .pc-actions { display: flex; gap: 8px; margin-top: 8px; }
-    .grow { flex: 1; white-space: nowrap; padding: 0 10px; }
-    .cmp { padding: 0 10px; }
+    .grow { flex: 1; padding: 0 12px; }
+    .add.done { background: var(--green); color: #fff; }
+    .cmp { padding: 0; width: 38px; flex: none; }
     .cmp.on { border-color: var(--blue); background: var(--blue-soft); color: var(--blue); }
+
+    /* carte étroite (2 colonnes sur mobile) */
+    @container (max-width: 200px) {
+      .pc-body { padding: 10px 10px 12px; }
+      .pc-name { font-size: 14px; }
+      .price { font-size: 16px; }
+      .old-price { font-size: 12px; }
+      .pc-flags .badge { font-size: 11px; padding: 2px 8px; }
+      .pc-wish { width: 34px; height: 34px; }
+      .cmp { display: none; }
+    }
   `,
 })
 export class ProductCard {

@@ -146,7 +146,7 @@ const DAY = new Intl.DateTimeFormat('fr-FR', { weekday: 'short', day: 'numeric' 
     .bars { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 8px; align-items: end; }
     .bar-col { display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 12px; text-align: center; }
     .bar-val { font-size: 11px; color: var(--muted); min-height: 16px; white-space: nowrap; }
-    .bar-track { width: 100%; max-width: 40px; height: 140px; background: #f1f5f9; border-radius: 6px; display: flex; align-items: flex-end; overflow: hidden; }
+    .bar-track { width: 100%; max-width: 40px; height: 140px; background: var(--surface-2); border-radius: 6px; display: flex; align-items: flex-end; overflow: hidden; }
     .bar { width: 100%; background: var(--blue); border-radius: 6px 6px 0 0; min-height: 2px; }
     .bar-day { font-weight: 600; text-transform: capitalize; }
     .low { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }

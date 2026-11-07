@@ -94,14 +94,14 @@ import { Stars } from '../shared/stars';
   styles: `
     .page { padding-top: 28px; display: flex; flex-direction: column; gap: 20px; }
     .head { display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; align-items: center; }
-    .cmp th[scope='row'] { width: 160px; background: #f8fafc; }
+    .cmp th[scope='row'] { width: 160px; background: var(--surface-2); }
     .cmp thead th { vertical-align: top; background: var(--surface); }
     .prod { position: relative; display: flex; flex-direction: column; gap: 10px; min-width: 180px; }
     .rm { position: absolute; top: -6px; right: -6px; }
     .big { width: 100%; height: 140px; border-radius: 12px; }
     .big img { object-fit: contain; }
     .name { color: var(--ink); font-weight: 600; text-decoration: none; white-space: normal; }
-    .diff td, .diff th { background: #fffbeb !important; }
+    .diff td, .diff th { background: var(--amber-soft) !important; }
     .best .price { color: var(--green); }
   `,
 })

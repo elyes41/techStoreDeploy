@@ -112,7 +112,7 @@ import { Icon } from '../shared/icon';
     .name { color: var(--ink); font-weight: 600; text-decoration: none; }
     .name:hover { color: var(--blue); }
     .stock { width: 84px; min-height: 38px; padding: 6px 8px; }
-    .stock.zero { border-color: #fca5a5; background: var(--red-soft); }
+    .stock.zero { border-color: var(--red); background: var(--red-soft); }
     .danger { color: var(--red); }
     .alert { margin-bottom: 16px; }
   `,

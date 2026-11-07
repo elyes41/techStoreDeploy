@@ -32,12 +32,13 @@ const PAGE_SIZE = 12;
     </div>
 
     <div class="container layout">
-      <button type="button" class="btn btn-outline filters-toggle" (click)="showFilters.set(!showFilters())"
-              [attr.aria-expanded]="showFilters()" aria-controls="filters">
-        <app-icon name="filter" [size]="18" /> Filtres
-      </button>
-
+      @if (showFilters()) { <div class="backdrop sheet-backdrop" (click)="showFilters.set(false)" aria-hidden="true"></div> }
       <aside id="filters" class="filters card" [class.open]="showFilters()" aria-label="Filtres">
+        <div class="sheet-head">
+          <span class="sheet-grip" aria-hidden="true"></span>
+          <h2>Filtres</h2>
+          <button type="button" class="icon-btn" aria-label="Fermer les filtres" (click)="showFilters.set(false)"><app-icon name="close" /></button>
+        </div>
         <fieldset>
           <legend>Catégorie</legend>
           <a class="cat-link" [class.on]="!f.category" routerLink="/catalogue" [queryParams]="keepQuery()">Toutes</a>
@@ -93,13 +94,23 @@ const PAGE_SIZE = 12;
           <label class="check"><input type="checkbox" [checked]="f.promo" (change)="setFlag('promo', !f.promo)" /> En promotion</label>
         </fieldset>
 
-        @if (hasFilters()) {
-          <button type="button" class="btn btn-outline btn-sm" (click)="reset()">Réinitialiser les filtres</button>
-        }
+        <div class="sheet-foot">
+          @if (hasFilters()) {
+            <button type="button" class="btn btn-outline btn-sm" (click)="reset()">Réinitialiser</button>
+          }
+          <button type="button" class="btn btn-primary sheet-apply" (click)="showFilters.set(false)">
+            Voir {{ result()?.total ?? '' }} produit{{ (result()?.total ?? 0) > 1 ? 's' : '' }}
+          </button>
+        </div>
       </aside>
 
       <section class="results">
         <div class="toolbar">
+          <button type="button" class="btn btn-outline btn-sm filters-toggle" (click)="showFilters.set(true)"
+                  [attr.aria-expanded]="showFilters()" aria-controls="filters">
+            <app-icon name="filter" [size]="16" /> Filtres
+            @if (activeCount()) { <span class="fcount">{{ activeCount() }}</span> }
+          </button>
           <div class="row chips">
             @if (f.q) { <button type="button" class="badge badge-blue chip" (click)="setParam('q', null)">« {{ f.q }} » ✕</button> }
             @for (b of f.brand; track b) { <button type="button" class="badge badge-blue chip" (click)="toggleBrand(b)">{{ b }} ✕</button> }
@@ -107,7 +118,7 @@ const PAGE_SIZE = 12;
             @if (f.promo) { <button type="button" class="badge badge-blue chip" (click)="setFlag('promo', false)">Promo ✕</button> }
             @if (f.minRating) { <button type="button" class="badge badge-blue chip" (click)="setParam('minRating', null)">{{ f.minRating }} ★ et plus ✕</button> }
           </div>
-          <label class="sort">Trier par
+          <label class="sort"><span class="sort-label">Trier par</span>
             <select class="select" [ngModel]="f.sort || 'popular'" (ngModelChange)="setParam('sort', $event === 'popular' ? null : $event)">
               <option value="popular">Pertinence</option>
               <option value="price_asc">Prix croissant</option>
@@ -147,28 +158,51 @@ const PAGE_SIZE = 12;
     </div>
   `,
   styles: `
-    .head { padding-top: 24px; padding-bottom: 20px; display: flex; flex-direction: column; gap: 8px; }
+    .head { padding-top: 24px; padding-bottom: 18px; display: flex; flex-direction: column; gap: 8px; }
     .crumbs { font-size: 14px; color: var(--muted); display: flex; gap: 8px; flex-wrap: wrap; }
     .crumbs a { text-decoration: none; }
-    .layout { display: flex; flex-wrap: wrap; gap: 28px; align-items: flex-start; }
-    .filters { flex: 1 1 240px; max-width: 100%; display: flex; flex-direction: column; gap: 22px; padding: 20px; }
-    fieldset { border: 0; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+    .layout { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 28px; align-items: start; }
+    .filters { position: sticky; top: 150px; max-height: calc(100vh - 170px); overflow: auto; display: flex; flex-direction: column; gap: 22px; padding: 20px;
+      scrollbar-width: thin; }
+    .sheet-head, .sheet-backdrop { display: none; }
+    .sheet-foot { display: flex; gap: 10px; align-items: center; }
+    .sheet-apply { display: none; }
+    fieldset { border: 0; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
     legend { font-weight: 600; margin-bottom: 8px; padding: 0; }
-    .cat-link { color: var(--ink); text-decoration: none; padding: 6px 0; font-size: 15px; }
-    .cat-link.on { color: var(--blue); font-weight: 600; }
+    .cat-link { color: var(--ink-2); text-decoration: none; padding: 6px 10px; margin: 0 -10px; font-size: 15px; border-radius: 10px; }
+    .cat-link:hover { background: var(--surface-2); color: var(--ink); }
+    .cat-link.on { color: var(--blue); font-weight: 600; background: var(--blue-soft); }
     .link-btn { border: 0; background: none; color: var(--blue); cursor: pointer; text-align: left; padding: 4px 0; font: 500 14px var(--font-body); }
     .price-row { display: flex; gap: 8px; align-items: flex-end; }
-    .price-row .field { flex: 1; font-size: 13px; color: var(--muted); }
-    .results { flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 20px; }
-    .toolbar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; }
+    .price-row .field { flex: 1; font-size: 13px; color: var(--muted); min-width: 0; }
+    .results { min-width: 0; display: flex; flex-direction: column; gap: 18px; }
+    .toolbar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; }
+    .chips { flex: 1 1 auto; }
     .chip { border: 0; cursor: pointer; padding: 6px 12px; font-size: 13px; }
     .sort { display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--muted); }
-    .sort .select { width: auto; }
+    .sort .select { width: auto; min-height: 38px; padding: 6px 12px; border-radius: 999px; font-size: 14px; }
     .filters-toggle { display: none; }
-    @media (max-width: 820px) {
+    .fcount { min-width: 20px; height: 20px; border-radius: 999px; background: var(--blue); color: var(--on-blue); font-size: 12px;
+      display: inline-flex; align-items: center; justify-content: center; padding: 0 6px; }
+
+    /* ---------- Mobile : filtres en feuille qui monte du bas ---------- */
+    @media (max-width: 860px) {
+      .layout { grid-template-columns: 1fr; }
       .filters-toggle { display: inline-flex; }
-      .filters { display: none; flex-basis: 100%; }
+      .toolbar { flex-wrap: nowrap; }
+      .chips { order: 3; flex-basis: 100%; }
+      .toolbar { flex-wrap: wrap; }
+      .sort-label { display: none; }
+      .sheet-backdrop { display: block; }
+      .filters { display: none; position: fixed; top: auto; left: 0; right: 0; bottom: 0; z-index: 70; max-height: 86dvh; border-radius: 26px 26px 0 0;
+        padding: 0 20px calc(16px + env(safe-area-inset-bottom)); box-shadow: var(--shadow-lift); animation: sheet-up .28s cubic-bezier(.2,.8,.2,1); }
       .filters.open { display: flex; }
+      .sheet-head { display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 1;
+        background: var(--surface); padding: 18px 0 8px; margin-bottom: -8px; }
+      .sheet-grip { position: absolute; top: 8px; left: 50%; width: 40px; height: 4px; margin-left: -20px; border-radius: 999px; background: var(--line-2); }
+      .sheet-foot { position: sticky; bottom: calc(-16px - env(safe-area-inset-bottom)); background: var(--surface); padding: 12px 0 16px; margin-top: auto;
+        border-top: 1px solid var(--line); }
+      .sheet-apply { display: inline-flex; flex: 1; }
     }
   `,
 })
@@ -178,6 +212,11 @@ export class CatalogPage {
   private router = inject(Router);
 
   protected showFilters = signal(false);
+  /** Nombre de filtres actifs (pastille du bouton « Filtres » sur mobile). */
+  protected activeCount = computed(() => {
+    const f = this.filters();
+    return (f.brand?.length ?? 0) + (f.minPrice != null ? 1 : 0) + (f.maxPrice != null ? 1 : 0) + (f.inStock ? 1 : 0) + (f.promo ? 1 : 0) + (f.minRating ? 1 : 0);
+  });
   protected minPrice: number | null = null;
   protected maxPrice: number | null = null;
 
